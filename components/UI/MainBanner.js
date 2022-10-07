@@ -22,7 +22,6 @@ const MainBanner = (props) => {
       {items.length > 1 ? (
         <Swiper
           loop={true}
-          onSwiper={(swiper) => console.log(swiper)}
           speed={1000}
           autoplay={{
             delay: 5000,
