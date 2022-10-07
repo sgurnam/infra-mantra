@@ -4,6 +4,7 @@ import Section from "../UI/Section";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper";
 import "swiper/css";
+import Link from "next/link";
 
 const ServicesSection = (props) => {
   const serviceList = [
@@ -53,7 +54,7 @@ const ServicesSection = (props) => {
           spaceBetween={30}
           autoplay={{
             delay: 5000,
-            disableOnInteraction: false,
+            disableOnInteraction: true,
           }}
           slidesPerView={4}
           modules={[Autoplay]}
@@ -70,6 +71,32 @@ const ServicesSection = (props) => {
                 <div className="content">
                   <h5>{element.title}</h5>
                   <p>{element.description}</p>
+                  <Link href={element.url}>
+                    <a>
+                      Learn More
+                      <svg
+                        width="13"
+                        height="12"
+                        viewBox="0 0 13 12"
+                        fill="none"
+                      >
+                        <path
+                          d="M1.28223 6H11.3086"
+                          stroke="#E7B554"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                        <path
+                          d="M6.29541 1L11.3086 6L6.29541 11"
+                          stroke="#E7B554"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </SwiperSlide>
