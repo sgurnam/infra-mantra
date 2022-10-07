@@ -121,8 +121,8 @@ const InfraRecommendationsSection = (props) => {
                 <div className="content">
                   <h2 class="property-title">{element.title}</h2>
                   <div className="propety-list">
-                    {element.projectInfoList.map((list) => (
-                      <li>
+                    {element.projectInfoList.map((list, index) => (
+                      <li key={`projectInfoList-${index}`}>
                         <div className="icon">
                           <svg
                             width="26"
@@ -190,8 +190,8 @@ const InfraRecommendationsSection = (props) => {
                   </div>
                   <div className="amenities-area">
                     <div className="amenities-label">Amenities</div>
-                    {element.amenitiesList.map((amenity) => (
-                      <li>
+                    {element.amenitiesList.map((amenity, index) => (
+                      <li key={`amenitiesList-${index}`}>
                         <div className="icon">
                           <Image
                             src={`/assets/images/${amenity.icon}`}
