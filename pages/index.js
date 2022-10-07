@@ -3,7 +3,7 @@ import Image from "next/image";
 import FeaturedCollections from "../components/homepageSections/FeaturedCollections";
 import FeaturedProjects from "../components/homepageSections/FeaturedProjects";
 import InfraHelpYou from "../components/homepageSections/InfraHelpYou";
-import PropertyTrendsUpdates from "../components/homepageSections/propertyTrendsUpdates";
+import PropertyTrendsUpdates from "../components/homepageSections/PropertyTrendsUpdates";
 import ServicesSection from "../components/homepageSections/ServicesSection";
 import MainBanner from "../components/UI/MainBanner";
 import Wrapper from "../components/UI/Wrapper";
