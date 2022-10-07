@@ -986,3 +986,61 @@ h6 {
   background-color: #313131;
 }
 
+.top-locality-area {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.7fr;
+  border: 2px solid #BFBFBF;
+  border-radius: 15px;
+}
+
+.top-locality-map iframe {
+  border: none;
+}
+
+.top-locality-category li {
+  position: relative;
+}
+
+.top-locality-category li .icon {
+  width: 28px;
+  height: 28px;
+  position: relative;
+  margin-right: 10px;
+}
+
+.top-locality-category li .icon img {
+  object-fit: contain;
+}
+
+.top-locality-area-list {
+  border: 2px solid #BFBFBF;
+  border-top: none;
+  border-bottom: none;
+  list-style: none;
+}
+
+.top-locality-area li {
+  padding: 8px 15px;
+  min-height: 55px;
+  display: flex;
+  align-items: center;
+}
+
+.top-locality-area li:not(:last-child) {
+  border-bottom: 2px solid #bfbfbf;
+}
+
+.top-locality-area li.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.top-localities-section {
+  position: relative;
+  padding: 30px 0;
+}
+
+.top-locality-area-list li strong {
+  margin-left: 15px;
+}
+

@@ -8,6 +8,7 @@ import OurPartners from "../components/homepageSections/OurPartners";
 import PropertyTrendsUpdates from "../components/homepageSections/PropertyTrendsUpdates";
 import ServicesSection from "../components/homepageSections/ServicesSection";
 import TestimonialsSection from "../components/homepageSections/TestimonialsSection";
+import TopLocalities from "../components/homepageSections/TopLocalities";
 import MainBanner from "../components/UI/MainBanner";
 import Wrapper from "../components/UI/Wrapper";
 import styles from "../styles/Home.module.css";
@@ -33,6 +34,7 @@ export default function Home() {
       <InfraHelpYou />
       <InfraRecommendationsSection />
       <PropertyTrendsUpdates />
+      <TopLocalities />
       <TestimonialsSection />
       <OurPartners />
     </Wrapper>

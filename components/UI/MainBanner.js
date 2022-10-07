@@ -7,6 +7,9 @@ import "swiper/css";
 import SliderArrows from "./SliderArrows";
 
 const MainBanner = (props) => {
+
+  // const [activeState, setActiveState] = useState(true)
+
   const items = props.items;
   const localities = [
     "Dwarka",
