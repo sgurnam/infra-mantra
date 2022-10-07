@@ -14,7 +14,7 @@ const TestimonialsSection = (props) => {
       designation: "Lorem Ipsum is simply dummy text.",
       image: "<iframe width='560' height='315' src='https://www.youtube.com/embed/8LSt8_11wbQ' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
     },
-    {
+    { 
       id: "testimonial--2",
       title: "I want to thank my RM for her support in closing the deal with a prospect from 99 Acres, We are very happy to say that you are very helpful in closing this lead and deal. We appreciate your efforts in doing so.",
       name: "Lorem Ipsum is simply dummy text.",
