@@ -49,7 +49,6 @@ const ServicesSection = (props) => {
       <div className="services-grids-row">
         <Swiper
           loop={true}
-          onSwiper={(swiper) => console.log(swiper)}
           speed={1000}
           spaceBetween={30}
           autoplay={{

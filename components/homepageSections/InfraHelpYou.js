@@ -50,7 +50,7 @@ const InfraHelpYou = (props) => {
       <div className="floating-svg-left">
         <svg width="276" height="244" viewBox="0 0 276 244" fill="none">
           <g opacity="0.3">
-            <g clip-path="url(#clip0_560_258)">
+            <g clipPath="url(#clip0_560_258)">
               <path
                 d="M256 115.533L228.116 144.905L151.225 70.9001L-82 131.905V90.4052L162.637 26.0051L162.661 26.1175L162.885 25.9052L256 115.533Z"
                 fill="url(#paint0_linear_560_258)"
@@ -94,7 +94,7 @@ const InfraHelpYou = (props) => {
               gradientUnits="userSpaceOnUse"
             >
               <stop />
-              <stop offset="1" stop-opacity="0" />
+              <stop offset="1" stopOpacity="0" />
             </linearGradient>
             <clipPath id="clip0_560_258">
               <rect
@@ -111,7 +111,7 @@ const InfraHelpYou = (props) => {
       <div className="floating-svg-left right">
         <svg width="276" height="244" viewBox="0 0 276 244" fill="none">
           <g opacity="0.3">
-            <g clip-path="url(#clip0_560_258)">
+            <g clipPath="url(#clip0_560_258)">
               <path
                 d="M256 115.533L228.116 144.905L151.225 70.9001L-82 131.905V90.4052L162.637 26.0051L162.661 26.1175L162.885 25.9052L256 115.533Z"
                 fill="url(#paint0_linear_560_258)"
@@ -155,7 +155,7 @@ const InfraHelpYou = (props) => {
               gradientUnits="userSpaceOnUse"
             >
               <stop />
-              <stop offset="1" stop-opacity="0" />
+              <stop offset="1" stopOpacity="0" />
             </linearGradient>
             <clipPath id="clip0_560_258">
               <rect

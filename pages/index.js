@@ -3,8 +3,11 @@ import Image from "next/image";
 import FeaturedCollections from "../components/homepageSections/FeaturedCollections";
 import FeaturedProjects from "../components/homepageSections/FeaturedProjects";
 import InfraHelpYou from "../components/homepageSections/InfraHelpYou";
+import InfraRecommendationsSection from "../components/homepageSections/InfraRecommendationsSection";
+import OurPartners from "../components/homepageSections/OurPartners";
 import PropertyTrendsUpdates from "../components/homepageSections/PropertyTrendsUpdates";
 import ServicesSection from "../components/homepageSections/ServicesSection";
+import TestimonialsSection from "../components/homepageSections/TestimonialsSection";
 import MainBanner from "../components/UI/MainBanner";
 import Wrapper from "../components/UI/Wrapper";
 import styles from "../styles/Home.module.css";
@@ -28,7 +31,10 @@ export default function Home() {
       <FeaturedCollections />
       <ServicesSection />
       <InfraHelpYou />
+      <InfraRecommendationsSection />
       <PropertyTrendsUpdates />
+      <TestimonialsSection />
+      <OurPartners />
     </Wrapper>
   );
 }

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap');
+
 html,
 body {
   padding: 0;
@@ -13,6 +15,16 @@ a {
 
 * {
   box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Inter', sans-serif;
 }
 
 .page-width {
@@ -406,14 +418,14 @@ a {
 
 .service-grid {
   /* text-align: center; */
-  background-color: #F9F4E9;
+  background-color: #f9f4e9;
   padding: 25px;
   border-radius: 12px;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .service-grid:hover {
-  background-color: #ECF3FA;
+  background-color: #ecf3fa;
   transform: scale(1.05);
 }
 
@@ -531,7 +543,7 @@ a {
 .property-trends-section {
   position: relative;
   padding: 25px 0 60px;
-  background-color: #ECF3FA;
+  background-color: #ecf3fa;
 }
 
 .theme-btn-area {
@@ -552,3 +564,337 @@ a {
   margin-left: 15px;
 }
 
+.testimonials-grids-row .swiper {
+  position: relative;
+  z-index: 2;
+}
+
+.testimonial-grid {
+  position: relative;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.testimonial-grid .content {
+  position: relative;
+  width: 55%;
+  padding: 0 60px;
+}
+
+.testimonial-grid .iframe {
+  width: 45%;
+}
+
+.testimonial-grid .iframe iframe {
+  width: 100%;
+  height: auto;
+  min-height: 290px;
+}
+
+.testimonial-grid .content h5 {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.testimonial-grid .content svg {
+  position: absolute;
+  left: 0px;
+  top: 20%;
+}
+
+.testimonial-grid .content p.name {
+  font-size: 16px;
+  color: #e7b554;
+}
+
+.testimonials-grids-row > svg {
+  position: absolute;
+  bottom: -10px;
+  z-index: 1;
+}
+
+.testimonials-grids-row {
+  position: relative;
+  overflow: hidden;
+  background-color: #000000;
+    border-radius: 15px;
+}
+
+.testimonials-section {
+  padding: 15px 0 60px;
+}
+
+.partners-section {
+  padding: 5px 0 70px;
+}
+
+.partners-grid {
+  position: relative;
+  padding: 40px 20px 20px;
+  text-align: center;
+  background-color: #DDF5FF;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.partners-grid .image {
+  position: relative;
+  height: 90px;
+}
+
+.partners-grid .image img {
+  object-fit: contain;
+  mix-blend-mode: darken;
+}
+
+.partners-grid  .overlay-image {
+  position: absolute;
+  height: 70%;
+  width: 100%;
+  opacity: 0;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%) scale(.7);
+  transition: .5s;
+  filter: grayscale(1);
+}
+
+.partners-grid .overlay-image img {
+  object-fit: contain;
+}
+
+.partners-grid:hover .overlay-image {
+  opacity: .1;
+  transform: translateX(-50%) scale(1.7);
+}
+
+.partners-grid .content {
+  margin-top: 15px;
+  transform: translateY(20px);
+  opacity: 0;
+  transition: .5s;
+}
+
+.partners-grid .content a svg {
+  margin-left: 6px;
+}
+
+.partners-grid .content a {
+  font-weight: 500;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.partners-section .swiper-slide:nth-child(even) .partners-grid {
+  background-color: #FAF1E2;
+}
+
+.partners-grid:hover .content {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slider-arrows {
+  display: flex;
+  gap: 7px;
+  margin: 25px 0;
+}
+
+.slider-arrows>div {
+  background-color: #E7B554;
+  width: 70px;
+  height: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: .3s;
+  box-shadow: 0px 4px 10px 0px #00000026;
+}
+
+
+.section-head.split-head {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-head.split-head .head {
+  width: 75%;
+}
+
+.section-head.split-head .arrows {
+  width: 25%;
+}
+
+.slider-arrows>div.swiper-button-disabled {
+  background-color: #fff;
+  cursor: initial;
+  opacity: .6;
+}
+
+.slider-arrows>div.swiper-button-disabled svg path {
+  stroke: #898989;
+}
+
+.partners-section .section-head.split-head .arrows .slider-arrows {
+  justify-content: flex-end;
+}
+.propert-info .image {
+  position: relative;
+}
+
+.infra-recommend-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.infra-recommend-card .content {
+  position: relative;
+    width: 50%;
+    padding-left: 40px;
+    padding-bottom: 80px;
+}
+
+.infra-recommend-card .image {
+  position: relative;
+  width: 50%;
+  height: auto;
+  min-height: 60vh;
+}
+
+.infra-recommend-card .image img {
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.amenities-area .icon {
+  position: relative;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.amenities-area {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.amenities-label {
+  width: 100%;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.amenities-area li {
+  width: calc(100% / 4);
+  text-align: center;
+  padding: 0 10px;
+}
+
+.amenities-area .icon img {
+  object-fit: contain;
+}
+
+.infra-recommend-card .content .property-title {
+  margin-top: 0;
+  font-size: 32px;
+  color: #313131;
+}
+
+.propety-list {
+  color: #434343;
+}
+
+.propety-list li {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px 0;
+}
+
+
+.propety-list li .icon {
+  width: 26px;
+  margin-right: 10px;
+}
+
+.infra-recommend-section {
+  padding: 30px 0 50px;
+}
+
+.infra-recommend-section .section-head.split-head {
+  align-items: center;
+}
+
+.infra-recommend-section .section-head.split-head .arrows .slider-arrows {
+  justify-content: flex-end;
+}
+
+.property-strip {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-left: auto;
+  padding: 27px 30px;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px 0px #00000014;
+  z-index: 1;
+  margin-top: -40px;
+  margin-right: 15px;
+  border-radius: 15px;
+}
+
+.propert-info-area {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.infra-recommend-card .propert-info:first-child .label {
+  /* width: calc(100% / 5); */
+  margin-bottom: 0;
+}
+
+.infra-recommend-card .propert-info .image img {
+  border-radius: 0;
+  object-fit: contain;
+}
+
+.infra-recommend-card .propert-info .label {
+  font-size: 16px;
+  /* font-weight: 500; */
+  margin-bottom: 12px;
+  color: #BA8D35;
+}
+
+.infra-recommend-row .swiper-slide {
+  padding: 20px 0;
+}
+
+.property-btn {
+  display: inline-flex;
+  align-items: center;
+}
+
+.amenities-area .amenities-label + li {
+  width: min-content;
+}
+
+.infra-recommend-card .propert-info .image {
+  position: relative;
+  height: 40px;
+  min-height: initial;
+  width: auto;
+}
