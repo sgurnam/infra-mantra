@@ -898,3 +898,91 @@ h6 {
   min-height: initial;
   width: auto;
 }
+
+.footer {
+  position: relative;
+  background-color: #000;
+  color: #fff;
+  padding: 50px 0 15px;
+}
+
+.footer .footer-company-info {
+  width: 35%;
+}
+
+.footer .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer .footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  width: 65%;
+  justify-content: space-around;
+}
+
+.footer .footer-company-info .social {
+  position: relative;
+  height: 36px;
+  width: 36px;
+}
+
+.footer .footer-company-info .social-icon {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.footer .footer-company-info .footer-logo {
+  position: relative;
+  height: 45px;
+}
+
+.footer .footer-company-info .footer-logo img {
+  object-fit: contain;
+  object-position: left;
+}
+
+.footer .footer-links ul {
+  margin: 0;
+  list-style: none;
+  padding-top: 60px;
+}
+
+.footer .footer-links ul li {
+  margin-bottom: 17px;
+}
+
+.footer .other-links {
+  justify-content: space-between;
+  padding: 50px 0 20px;
+  margin-top: 30px;
+  border-top: 1px solid #262626;
+}
+
+.footer .other-links ul {
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+  color: #959595;
+}
+
+.footer .other-links ul li {
+  margin-bottom: 17px;
+}
+
+.copyright {
+  text-align: center;
+  padding: 20px;
+  color: #BEBEBE;
+}
+
+.footer-about p {
+  color: #959595;
+}
+
+.slider-arrows>div:not(.swiper-button-disabled):hover {
+  background-color: #313131;
+}
+
