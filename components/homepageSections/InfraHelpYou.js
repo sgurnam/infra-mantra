@@ -108,7 +108,7 @@ const InfraHelpYou = (props) => {
         </svg>
       </div>
       
-      <div className="floating-svggit-left right">
+      <div className="floating-svg-left right">
         <svg width="276" height="244" viewBox="0 0 276 244" fill="none">
           <g opacity="0.3">
             <g clip-path="url(#clip0_560_258)">
