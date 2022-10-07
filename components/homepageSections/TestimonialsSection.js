@@ -2,7 +2,7 @@ import Image from "next/image";
 import Section from "../UI/Section";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Autoplay } from "swiper";
+import { Navigation, Autoplay, Pagination } from "swiper";
 import "swiper/css";
 
 const TestimonialsSection = (props) => {
@@ -38,12 +38,13 @@ const TestimonialsSection = (props) => {
           loop={true}
           speed={1000}
           spaceBetween={30}
-          modules={[Autoplay, Navigation]}
+          modules={[Autoplay, Navigation, Pagination]}
           autoplay={{
             delay: 5000,
             disableOnInteraction: true,
           }}
-          navigation
+          // pagination={true}
+          pagination={{ clickable: true }}
         >
           {testimonialsList.map((element) => (
             <SwiperSlide key={element.id}>

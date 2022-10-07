@@ -1301,3 +1301,24 @@ h6 {
   align-items: center;
   justify-content: center;
 }
+
+.testimonials-grids-row .swiper-pagination {
+  left: 90px;
+  position: absolute;
+  bottom: 40px;
+  z-index: 9;
+}
+
+.testimonials-grids-row .swiper-pagination > .swiper-pagination-bullet {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: transparent;
+  margin-right: 7px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+.testimonials-grids-row .swiper-pagination > .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #fff;
+}
