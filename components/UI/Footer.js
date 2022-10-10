@@ -1,14 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
+import FloatingContactBtn from "./FloatingContactBtn";
+import SelectLocation from "./SelectLocation";
 
 const Footer = (props) => {
   return (
     <>
-      <div className="floating-contact-btn">
-        <Link href="#">
-          <a>Contact Us</a>
-        </Link>
-      </div>
+      <SelectLocation />
+      <FloatingContactBtn />
       <div className="floating-whatsapp">
         <Link href="#">
           <a>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap");
 
 html,
 body {
@@ -24,7 +24,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .page-width {
@@ -106,6 +106,8 @@ h6 {
   visibility: hidden;
   opacity: 0;
   transition: 0.5s;
+  z-index: 2;
+  background-color: #fff;
 }
 
 .navigation li.dropdown .dropdown-inner a {
@@ -203,19 +205,18 @@ h6 {
 
 .search-area .filter-head .filter {
   padding: 9px 17px;
-    font-size: 14px;
-    font-family: 'Inter', sans-serif;
-    color: #BFBFBF;
-    font-weight: 600;
-    transition: .2s;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  color: #bfbfbf;
+  font-weight: 600;
+  transition: 0.2s;
 }
-
 
 .search-area .filter-head .filter:first-child {
   border-radius: 60px 40px 40px 0 !important;
 }
 
-.search-area .filter-head .filter:last-child{
+.search-area .filter-head .filter:last-child {
   border-radius: 20px 35px 0 20px !important;
 }
 
@@ -245,7 +246,7 @@ h6 {
 }
 
 .search-dropdown-inner:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -284,31 +285,31 @@ h6 {
   align-items: center;
 }
 
-.search-area .filter-head .filter:first-child:hover, 
+.search-area .filter-head .filter:first-child:hover,
 .search-area .filter-head .filter:first-child.active {
   background-color: #fff;
-  color: #CF9D3C;
+  color: #cf9d3c;
   font-weight: 500;
 }
 
-.search-area .filter-head .filter:hover, 
+.search-area .filter-head .filter:hover,
 .search-area .filter-head .filter.active {
   background-color: #fff;
-  color: #CF9D3C;
+  color: #cf9d3c;
   font-weight: 500;
   border-radius: 60px;
 }
 
-.search-area .filter-head .filter:last-child:hover, 
+.search-area .filter-head .filter:last-child:hover,
 .search-area .filter-head .filter:last-child.active {
   background-color: #fff;
-  color: #CF9D3C;
+  color: #cf9d3c;
   font-weight: 500;
 }
 
 .filter-localities .label {
   width: 25%;
-  color: #BFBFBF;
+  color: #bfbfbf;
   font-size: 13px;
   margin-top: 5px;
   font-weight: 500;
@@ -357,13 +358,13 @@ h6 {
   font-size: 13px;
   border-radius: 18px;
   cursor: pointer;
-  font-family: 'Inter', sans-serif;
-  transition: .3s;
+  font-family: "Inter", sans-serif;
+  transition: 0.3s;
 }
 
 .locality-inner:hover {
   background: #fff;
-  color: #CF9D3C;
+  color: #cf9d3c;
 }
 
 .banner-content h1 {
@@ -384,9 +385,8 @@ h6 {
   overflow: hidden;
 }
 
-
 .propery-grid .property-image img {
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .propery-grid:hover .property-image img {
@@ -420,7 +420,7 @@ h6 {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .propery-grid:hover .content .property-btn {
@@ -453,7 +453,7 @@ h6 {
   min-height: 260px;
   border-radius: 10px;
   overflow: hidden;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .collection-grid:hover {
@@ -495,7 +495,7 @@ h6 {
 .collection-grid .image img {
   background-position: center;
   object-fit: cover;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .collection-grid:hover .image img {
@@ -516,10 +516,10 @@ h6 {
 .service-grid {
   /* text-align: center; */
   background-color: #f9f4e9;
-  padding: 25px;
+  padding: 40px;
   border-radius: 12px;
   transition: 0.5s;
-    border: 2px solid #f9f4e9;
+  border: 2px solid #f9f4e9;
 }
 
 .service-grid:hover {
@@ -532,7 +532,7 @@ h6 {
 .service-grid .content h5 {
   font-size: 17px;
   margin: 15px 0 10px;
-  transition: .3s;
+  transition: 0.3s;
   font-weight: 500;
 }
 
@@ -543,6 +543,7 @@ h6 {
 .service-grid .content p {
   font-size: 14px;
   margin-top: 0;
+  max-width: 80%;
 }
 
 .services-section {
@@ -552,6 +553,10 @@ h6 {
 
 .services-grids-row {
   margin-top: 40px;
+}
+
+.services-grids-row .swiper {
+  padding-left: 5rem;
 }
 
 .services-grids-row .swiper-slide {
@@ -566,7 +571,7 @@ h6 {
   font-weight: 500;
   height: 0px;
   overflow: hidden;
-  transition: .5s;
+  transition: 0.5s;
   font-size: 15px;
 }
 
@@ -588,7 +593,7 @@ h6 {
 .infra-help-grid .image {
   position: relative;
   height: 60px;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .infra-help-grid:hover .image {
@@ -648,7 +653,7 @@ h6 {
   position: relative;
   width: 30%;
   height: 100%;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .property-trends-row {
@@ -670,7 +675,7 @@ h6 {
 .property-trends-grid .content h5 {
   margin: auto;
   font-size: 16px;
-  transition: .3s;
+  transition: 0.3s;
   font-weight: 600;
 }
 
@@ -700,11 +705,11 @@ h6 {
   display: inline-block;
   border-radius: 40px;
   font-weight: 500;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .theme-btn:hover {
-  background-color: #BA8D35;
+  background-color: #ba8d35;
 }
 
 .theme-btn:hover svg path {
@@ -712,11 +717,15 @@ h6 {
 }
 
 .theme-btn svg path {
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .theme-btn svg {
   margin-left: 15px;
+}
+
+.btn-full {
+  width: 100%;
 }
 
 .testimonials-grids-row .swiper {
@@ -725,7 +734,7 @@ h6 {
 }
 
 .testimonials-grids-row {
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .testimonials-grids-row:hover {
@@ -784,7 +793,7 @@ h6 {
   position: relative;
   overflow: hidden;
   background-color: #000000;
-    border-radius: 15px;
+  border-radius: 15px;
 }
 
 .testimonials-section {
@@ -799,7 +808,7 @@ h6 {
   position: relative;
   padding: 40px 20px 20px;
   text-align: center;
-  background-color: #DDF5FF;
+  background-color: #ddf5ff;
   border-radius: 15px;
   overflow: hidden;
 }
@@ -814,15 +823,15 @@ h6 {
   mix-blend-mode: darken;
 }
 
-.partners-grid  .overlay-image {
+.partners-grid .overlay-image {
   position: absolute;
   height: 70%;
   width: 100%;
   opacity: 0;
   bottom: 80px;
   left: 50%;
-  transform: translateX(-50%) scale(.7);
-  transition: .5s;
+  transform: translateX(-50%) scale(0.7);
+  transition: 0.5s;
   filter: grayscale(1);
 }
 
@@ -831,7 +840,7 @@ h6 {
 }
 
 .partners-grid:hover .overlay-image {
-  opacity: .1;
+  opacity: 0.1;
   transform: translateX(-50%) scale(1.7);
 }
 
@@ -839,7 +848,7 @@ h6 {
   margin-top: 15px;
   transform: translateY(20px);
   opacity: 0;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .partners-grid .content a svg {
@@ -856,7 +865,7 @@ h6 {
 }
 
 .partners-section .swiper-slide:nth-child(even) .partners-grid {
-  background-color: #FAF1E2;
+  background-color: #faf1e2;
 }
 
 .partners-grid:hover .content {
@@ -870,8 +879,8 @@ h6 {
   margin: 25px 0;
 }
 
-.slider-arrows>div {
-  background-color: #E7B554;
+.slider-arrows > div {
+  background-color: #e7b554;
   width: 70px;
   height: 40px;
   display: flex;
@@ -880,10 +889,9 @@ h6 {
   justify-content: center;
   border-radius: 30px;
   cursor: pointer;
-  transition: .3s;
+  transition: 0.3s;
   box-shadow: 0px 4px 10px 0px #00000026;
 }
-
 
 .section-head.split-head {
   display: flex;
@@ -898,13 +906,13 @@ h6 {
   width: 25%;
 }
 
-.slider-arrows>div.swiper-button-disabled {
+.slider-arrows > div.swiper-button-disabled {
   background-color: #fff;
   cursor: initial;
-  opacity: .6;
+  opacity: 0.6;
 }
 
-.slider-arrows>div.swiper-button-disabled svg path {
+.slider-arrows > div.swiper-button-disabled svg path {
   stroke: #898989;
 }
 
@@ -922,9 +930,9 @@ h6 {
 
 .infra-recommend-card .content {
   position: relative;
-    width: 50%;
-    padding-left: 40px;
-    padding-bottom: 80px;
+  width: 50%;
+  padding-left: 40px;
+  padding-bottom: 80px;
 }
 
 .infra-recommend-card .image {
@@ -943,18 +951,18 @@ h6 {
 .infra-recommend-card .image img {
   object-fit: cover;
   border-radius: 15px;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .amenities-area .icon {
   position: relative;
   height: 50px;
   margin-bottom: 10px;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .amenities-area li .text {
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .amenities-area li:hover .icon {
@@ -966,7 +974,7 @@ h6 {
 }
 
 .amenities-area li .text {
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .amenities-area {
@@ -1008,7 +1016,6 @@ h6 {
   flex-wrap: wrap;
   margin: 15px 0;
 }
-
 
 .propety-list li .icon {
   width: 26px;
@@ -1064,7 +1071,7 @@ h6 {
   font-size: 16px;
   /* font-weight: 500; */
   margin-bottom: 12px;
-  color: #BA8D35;
+  color: #ba8d35;
 }
 
 .infra-recommend-row .swiper-slide {
@@ -1114,7 +1121,7 @@ h6 {
   position: relative;
   height: 36px;
   width: 36px;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .footer a:hover {
@@ -1173,21 +1180,21 @@ h6 {
 .copyright {
   text-align: center;
   padding: 20px;
-  color: #BEBEBE;
+  color: #bebebe;
 }
 
 .footer-about p {
   color: #959595;
 }
 
-.slider-arrows>div:not(.swiper-button-disabled):hover {
+.slider-arrows > div:not(.swiper-button-disabled):hover {
   background-color: #313131;
 }
 
 .top-locality-area {
   display: grid;
   grid-template-columns: 1fr 1fr 1.7fr;
-  border: 2px solid #BFBFBF;
+  border: 2px solid #bfbfbf;
   border-radius: 15px;
 }
 
@@ -1211,7 +1218,7 @@ h6 {
 }
 
 .top-locality-area-list {
-  border: 2px solid #BFBFBF;
+  border: 2px solid #bfbfbf;
   border-top: none;
   border-bottom: none;
   list-style: none;
@@ -1222,15 +1229,15 @@ h6 {
   min-height: 55px;
   display: flex;
   align-items: center;
-  transition: .3s;
-    cursor: pointer;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 .top-locality-area li:not(:last-child) {
   border-bottom: 2px solid #bfbfbf;
 }
 
-.top-locality-area li:hover, 
+.top-locality-area li:hover,
 .top-locality-area li.active {
   background-color: #000;
   color: #fff;
@@ -1257,6 +1264,10 @@ h6 {
   border-radius: 15px 15px 0 0;
 }
 
+.floating-contact-btn span {
+  cursor: pointer;
+}
+
 .floating-whatsapp {
   position: fixed;
   width: 65px;
@@ -1276,7 +1287,6 @@ h6 {
   width: 100%;
   display: inline-block;
 }
-
 
 .floating-call {
   position: fixed;
@@ -1319,6 +1329,151 @@ h6 {
   border: 1px solid #fff;
 }
 
-.testimonials-grids-row .swiper-pagination > .swiper-pagination-bullet.swiper-pagination-bullet-active {
+.testimonials-grids-row
+  .swiper-pagination
+  > .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-color: #fff;
 }
+
+.floating-form {
+  position: fixed;
+  bottom: 30px;
+  right: 14px;
+  background-color: #fff;
+  z-index: 100;
+  box-shadow: 0 0 20px #00000045;
+  width: max(300px, 25%);
+  padding: 25px 30px;
+  border-radius: 15px;
+}
+
+.floating-form .form-head h3 {
+  margin: 0 0 10px;
+}
+
+.floating-form .form-head {
+  position: relative;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.close-btn {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  background-color: #fff;
+  top: -40px;
+  right: -40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #0000002b;
+  cursor: pointer;
+}
+
+.form-area .form-group:last-child {
+  margin-bottom: 0;
+}
+
+.floating-form .form-head p {
+  color: #898989;
+  font-size: 14px;
+  margin: 0;
+}
+
+.form-group {
+  position: relative;
+  margin: 22px 0;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  border: 1px solid #cccccc;
+  padding: 8px;
+  border-radius: 7px;
+  font-size: 15px;
+}
+
+.form-group label {
+  font-size: 14px;
+  color: #898989;
+  position: absolute;
+  bottom: calc(100% - 6px);
+  background-color: #fff;
+  left: 10px;
+  padding: 0 4px;
+  z-index: 1;
+}
+
+.form-group .number-field > .label-91 {
+  position: absolute;
+  left: 0;
+  padding: 8px 12px;
+  font-size: 15px;
+  border-right: 1px solid #cccccc;
+  height: 100%;
+}
+
+.form-group .number-field > .label-91 + input {
+  padding-left: 60px;
+}
+
+.select-location-grid .image {
+  position: relative;
+  height: 80px;
+}
+
+.select-location-popup {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: auto;
+  width: 60%;
+  background-color: #fff;
+  z-index: 101;
+  border-radius: 10px;
+}
+
+.select-location-inner .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.select-location-inner .select-location-grid .image img {
+  object-fit: contain;
+}
+
+.select-location-grid {
+  text-align: center;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.select-location-inner {
+  padding: 30px;
+}
+
+.select-location-inner .form-head h3 {
+  margin: 0 0 20px;
+}
+
+.select-location-inner .close-btn {
+  top: -20px;
+  right: -20px;
+  cursor: pointer;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  z-index: 100;
+  opacity: .7;
+}
+

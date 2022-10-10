@@ -89,8 +89,8 @@ const InfraRecommendationsSection = (props) => {
         </div>
         <div className="arrows">
           <SliderArrows
-            prevClass="infra-recommend-left"
-            nextClass="infra-recommend-right"
+            prevclassName="infra-recommend-left"
+            nextclassName="infra-recommend-right"
           />
         </div>
       </div>
@@ -109,8 +109,8 @@ const InfraRecommendationsSection = (props) => {
           }}
           modules={[Autoplay, Navigation]}
         >
-          {infraList.map((element) => (
-            <SwiperSlide key={element.id}>
+          {infraList.map((element, index) => (
+            <SwiperSlide key={`infraListt--${index}`}>
               <div className="infra-recommend-card">
                 <div className="image">
                   <Image
@@ -119,7 +119,7 @@ const InfraRecommendationsSection = (props) => {
                   />
                 </div>
                 <div className="content">
-                  <h2 class="property-title">{element.title}</h2>
+                  <h2 className="property-title">{element.title}</h2>
                   <div className="propety-list">
                     {element.projectInfoList.map((list, index) => (
                       <li key={`projectInfoList-${index}`}>
@@ -131,7 +131,7 @@ const InfraRecommendationsSection = (props) => {
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
                           >
-                            <g clip-path="url(#clip0_560_267)">
+                            <g clipPath="url(#clip0_560_267)">
                               <path
                                 d="M3.76807 10L3.76807 0.042511L0.000155449 0.042511L0.000155449 10H3.76807Z"
                                 fill="#CDA134"
