@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Section from "../UI/Section";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper";
@@ -11,42 +10,45 @@ const ServicesSection = (props) => {
     {
       id: "service--1",
       title: "Independent House",
-      description: "Lorem Ipsum is simply dummy text.",
+      description: "Lorem Ipsum is simply dummy text of the printing industry.",
       image: "service-1.png",
       url: "#",
     },
     {
       id: "service--2",
       title: "Studio",
-      description: "Lorem Ipsum is simply dummy text.",
+      description: "Lorem Ipsum is simply dummy text of the printing industry.",
       image: "service-2.png",
       url: "#",
     },
     {
       id: "service--3",
       title: "Townships",
-      description: "Lorem Ipsum is simply dummy text.",
+      description: "Lorem Ipsum is simply dummy text of the printing industry.",
       image: "service-3.png",
       url: "#",
     },
     {
       id: "service--4",
       title: "Affordable Homes",
-      description: "Lorem Ipsum is simply dummy text.",
+      description: "Lorem Ipsum is simply dummy text of the printing industry.",
       image: "service-4.png",
       url: "#",
     },
   ];
   return (
-    <Section classes="services-section" pageWidth="container">
-      <div className="section-head">
-        <h2>Services</h2>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and
-          <br />
-          typesetting industry.
-        </p>
+    <section className="infra-section services-section">
+      <div className="page-width container">
+        <div className="section-head">
+          <h2>Services</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and
+            <br />
+            typesetting industry.
+          </p>
+        </div>
       </div>
+
       <div className="services-grids-row">
         <Swiper
           loop={true}
@@ -56,7 +58,7 @@ const ServicesSection = (props) => {
             delay: 5000,
             disableOnInteraction: true,
           }}
-          slidesPerView={4}
+          slidesPerView={3.5}
           modules={[Autoplay]}
         >
           {serviceList.map((element) => (
@@ -103,7 +105,7 @@ const ServicesSection = (props) => {
           ))}
         </Swiper>
       </div>
-    </Section>
+    </section>
   );
 };
 

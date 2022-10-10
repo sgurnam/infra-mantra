@@ -40,7 +40,10 @@ const Header = (props) => {
           </div>
           <div className="nav-right">
             <div className="navigation">
-              <li className="dropdown">
+            <li>
+                <a href="#">Contact Us</a>
+              </li>
+              {/* <li className="dropdown">
                 <a href="#">Contact Us</a>
                 <div className="dropdown-icon">
                   <svg width="10" height="8" viewBox="0 0 10 8" fill="none">
@@ -65,7 +68,7 @@ const Header = (props) => {
                     </Link>
                   </li>
                 </ul>
-              </li>
+              </li> */}
             </div>
             <div className="navbars">
                 <div>

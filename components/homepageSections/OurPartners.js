@@ -35,12 +35,12 @@ const OurPartners = (props) => {
       url: "#",
     },
     {
-      id: "partners--2",
+      id: "partners--6",
       image: "partner-2.png",
       url: "#",
     },
     {
-      id: "partners--3",
+      id: "partners--7",
       image: "partner-3.png",
       url: "#",
     },
@@ -74,7 +74,7 @@ const OurPartners = (props) => {
           modules={[Autoplay, Navigation]}
         >
           {partnersList.map((element) => (
-            <SwiperSlide key={element.id}>
+            <SwiperSlide key={`partnersListt--${element.id}`}>
               <div className="partners-grid">
                 <div className="overlay-image">
                   <Image
