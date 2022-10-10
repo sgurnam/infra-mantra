@@ -49,7 +49,7 @@ const SelectLocation = (props) => {
                 onClick={locationPopupHandler}
               >
                 <div className="image">
-                  <Image src="/assets/images/Noida.png" layout="fill" />
+                  <Image src="/assets/images/noida.png" layout="fill" />
                 </div>
                 <p>Noida</p>
               </div>
@@ -81,5 +81,6 @@ const SelectLocation = (props) => {
     </>
   );
 };
+
 
 export default SelectLocation;
