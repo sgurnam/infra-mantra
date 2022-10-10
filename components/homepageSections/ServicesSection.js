@@ -9,29 +9,29 @@ const ServicesSection = (props) => {
   const serviceList = [
     {
       id: "service--1",
-      title: "Independent House",
-      description: "Lorem Ipsum is simply dummy text of the printing industry.",
+      title: "Property Buying",
+      description: "We make buying a property just as easy as going out for shopping",
       image: "service-1.png",
       url: "#",
     },
     {
       id: "service--2",
-      title: "Studio",
-      description: "Lorem Ipsum is simply dummy text of the printing industry.",
+      title: "Home Loans ",
+      description: "Backing out because of endless hassle of applying for a home loan?  Well let us handle that, we provide Home loan facilitation through major banks across India.",
       image: "service-2.png",
       url: "#",
     },
     {
       id: "service--3",
-      title: "Townships",
-      description: "Lorem Ipsum is simply dummy text of the printing industry.",
+      title: "Home Interiors ",
+      description: "Hire professional interior decorators and feel the feeling of being at Home",
       image: "service-3.png",
       url: "#",
     },
     {
       id: "service--4",
-      title: "Affordable Homes",
-      description: "Lorem Ipsum is simply dummy text of the printing industry.",
+      title: "Property Management Services",
+      description: "Experience the super easy property buying process with us. From evaluating the property to handing over the keys, we do it all.",
       image: "service-4.png",
       url: "#",
     },
@@ -41,11 +41,7 @@ const ServicesSection = (props) => {
       <div className="page-width container">
         <div className="section-head">
           <h2>Services</h2>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and
-            <br />
-            typesetting industry.
-          </p>
+          <p>One stop destination for all property-related services</p>
         </div>
       </div>
 

@@ -28,10 +28,7 @@ const TestimonialsSection = (props) => {
     <Section classes="testimonials-section" pageWidth="container">
       <div className="section-head">
         <h2>Testimonials</h2>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.
-        </p>
+        <p>Look what our clients feel about us</p>
       </div>
       <div className="testimonials-grids-row">
         <Swiper

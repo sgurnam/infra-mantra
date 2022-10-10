@@ -6,10 +6,7 @@ const TopLocalities = (props) => {
     <Section classes="top-localities-section" pageWidth="container">
       <div className="section-head">
         <h2>Top Localities</h2>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.
-        </p>
+        <p>See the top trending localities in Gurgaon</p>
       </div>
       <div className="top-localities-row">
         <div className="top-locality-area">

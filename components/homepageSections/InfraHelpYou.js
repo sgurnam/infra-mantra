@@ -5,34 +5,38 @@ const InfraHelpYou = (props) => {
   const helpList = [
     {
       id: "infra-help--1",
-      title: "Buy a Home",
+      title: "Searching & Shortlisting Property",
       description:
         "With over 1 million+ homes for sale available on the website, Inframantra can match you with a house you will want to call home.",
       image: "infra-icon-1.png",
     },
     {
       id: "infra-help--2",
-      title: "Rent a Home",
+      title: "Conducting Site Visit",
       description:
         "With 35+ filters and custom keyword search, Inframantra can help you easily find a home or apartment for rent that you'll love.",
       image: "infra-icon-2.png",
     },
     {
       id: "infra-help--3",
-      title: "See Neighborhoods",
+      title: "Hassel -Free Paper Work",
       description:
         "With more neighborhood insights than any other real estate website, we've captured the color and diversity of communities.",
       image: "infra-icon-3.png",
+    },
+    {
+      id: "infra-help--4",
+      title: "Post – Sales Assistance",
+      description:
+        "With more neighborhood insights than any other real estate website, we've captured the color and diversity of communities.",
+      image: "infra-icon-1.png",
     },
   ];
   return (
     <Section classes="infra-help-you-section" pageWidth="container">
       <div className="section-head">
         <h2>How Inframantra Helps You</h2>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.
-        </p>
+        <p>We provide end to end assistance from finding your dream home to handing you over the keys</p>
       </div>
       <div className="infra-help-grids-row">
         {helpList.map((element) => (
@@ -42,7 +46,7 @@ const InfraHelpYou = (props) => {
             </div>
             <div className="content">
               <h5>{element.title}</h5>
-              <p>{element.description}</p>
+              {/* <p>{element.description}</p> */}
             </div>
           </div>
         ))} 

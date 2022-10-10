@@ -6,35 +6,35 @@ const FeaturedCollections = (props) => {
     {
       id: "collection--1",
       title: "Independent House",
-      description: "Lorem Ipsum is simply dummy text.",
+      description: "Take full advantage of autonomy and privacy",
       image: "collection-img-1.jpg",
       url: "#",
     },
     {
       id: "collection--2",
       title: "Studio",
-      description: "Lorem Ipsum is simply dummy text.",
+      description: "Live minimally while also conserving both the environment and the money",
       image: "collection-img-2.jpg",
       url: "#",
     },
     {
       id: "collection--3",
       title: "Townships",
-      description: "Lorem Ipsum is simply dummy text.",
+      description: "living in communities independently",
       image: "collection-img-3.jpg",
       url: "#",
     },
     {
       id: "collection--4",
       title: "Affordable Homes",
-      description: "Lorem Ipsum is simply dummy text.",
+      description: "Pocket – Friendly Homes",
       image: "collection-img-4.jpg",
       url: "#",
     },
     {
       id: "collection--5",
       title: "Luxury",
-      description: "Lorem Ipsum is simply dummy text.",
+      description: "Elegant homes for the affluent",
       image: "collection-img-5.jpg",
       url: "#",
     },
@@ -43,11 +43,7 @@ const FeaturedCollections = (props) => {
     <Section classes="featured-collections-section" pageWidth="container">
       <div className="section-head">
         <h2>Featured Collections</h2>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and
-          <br />
-          typesetting industry.
-        </p>
+        <p>Exclusive Properties based on your preferred category</p>
       </div>
       <div className="collections-grids-row">
         {collectionList.map((element) => (
