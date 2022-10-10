@@ -7,28 +7,28 @@ const InfraHelpYou = (props) => {
       id: "infra-help--1",
       title: "Searching & Shortlisting Property",
       description:
-        "With over 1 million+ homes for sale available on the website, Inframantra can match you with a house you will want to call home.",
+        "Lorem Ipsum is simply dummy text of the printing industry.",
       image: "infra-icon-1.png",
     },
     {
       id: "infra-help--2",
       title: "Conducting Site Visit",
       description:
-        "With 35+ filters and custom keyword search, Inframantra can help you easily find a home or apartment for rent that you'll love.",
+        "Lorem Ipsum is simply dummy text of the printing industry.",
       image: "infra-icon-2.png",
     },
     {
       id: "infra-help--3",
       title: "Hassel -Free Paper Work",
       description:
-        "With more neighborhood insights than any other real estate website, we've captured the color and diversity of communities.",
+        "Lorem Ipsum is simply dummy text of the printing industry.",
       image: "infra-icon-3.png",
     },
     {
       id: "infra-help--4",
       title: "Post – Sales Assistance",
       description:
-        "With more neighborhood insights than any other real estate website, we've captured the color and diversity of communities.",
+        "Lorem Ipsum is simply dummy text of the printing industry.",
       image: "infra-icon-1.png",
     },
   ];
@@ -46,7 +46,7 @@ const InfraHelpYou = (props) => {
             </div>
             <div className="content">
               <h5>{element.title}</h5>
-              {/* <p>{element.description}</p> */}
+              <p>{element.description}</p>
             </div>
           </div>
         ))} 

@@ -610,6 +610,11 @@ h6 {
   object-fit: contain;
 }
 
+.infra-help-grid .content p {
+  color: #CCCCCC;
+  font-size: 15px;
+}
+
 .infra-help-grids-row {
   position: relative;
   display: grid;
@@ -638,9 +643,11 @@ h6 {
 }
 
 .infra-help-grid h5 {
-  font-size: 18px;
+  font-size: 19px;
   margin-bottom: 0;
   font-weight: 500;
+  font-family: "DM Sans", sans-serif;
+  min-height: 49px;
 }
 
 .property-trends-grid {
