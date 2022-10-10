@@ -520,6 +520,7 @@ h6 {
   border-radius: 12px;
   transition: 0.5s;
   border: 2px solid #f9f4e9;
+  min-height: 90%;
 }
 
 .service-grid:hover {
@@ -543,7 +544,7 @@ h6 {
 .service-grid .content p {
   font-size: 14px;
   margin-top: 0;
-  max-width: 80%;
+  /* max-width: 80%; */
 }
 
 .services-section {
@@ -561,7 +562,7 @@ h6 {
 
 .services-grids-row .swiper-slide {
   padding: 20px 0;
-  height: 280px;
+  height: 380px;
 }
 
 .service-grid a {
@@ -612,7 +613,7 @@ h6 {
 .infra-help-grids-row {
   position: relative;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 50px;
   padding-top: 50px;
   z-index: 1;
@@ -1196,6 +1197,7 @@ h6 {
   grid-template-columns: 1fr 1fr 1.7fr;
   border: 2px solid #bfbfbf;
   border-radius: 15px;
+  overflow: hidden;
 }
 
 .top-locality-map iframe {

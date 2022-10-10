@@ -44,10 +44,7 @@ const PropertyTrendsUpdates = (props) => {
     <Section classes="property-trends-section" pageWidth="container">
       <div className="section-head">
         <h2>Property Trends & Updates</h2>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.
-        </p>
+        <p>Get the latest updates and insights related to real estate</p>
       </div>
       <div className="property-trends-row">
         {trendList.map((element) => (

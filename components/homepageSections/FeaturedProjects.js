@@ -6,11 +6,7 @@ const FeaturedProjects = (props) => {
     <Section classes="featured-products" pageWidth="">
       <div className="section-head text-center">
         <h2>Featured Projects</h2>
-        <p> 
-          Lorem Ipsum is simply dummy text of the printing and
-          <br />
-          typesetting industry.
-        </p>
+        <p> Exclusive display of featured projects</p>
       </div>
       <div className="featured-products-slider">
         <div className="row">

@@ -50,11 +50,7 @@ const OurPartners = (props) => {
       <div className="section-head split-head">
         <div className="head">
             <h2>Our Partners</h2>
-            <p>
-            Lorem Ipsum is simply dummy text of the printing and
-            <br />
-            typesetting industry.
-            </p>
+            <p>We are working with Top Builders and Developers across India</p>
         </div>
         <div className="arrows">
             <SliderArrows prevClass="partners-left" nextClass="partners-right"/>

@@ -81,11 +81,7 @@ const InfraRecommendationsSection = (props) => {
       <div className="section-head split-head">
         <div className="head">
           <h2>Inframantra Recommendations</h2>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and
-            <br />
-            typesetting industry.
-          </p>
+          <p>List of top recommended properties for you</p>
         </div>
         <div className="arrows">
           <SliderArrows
