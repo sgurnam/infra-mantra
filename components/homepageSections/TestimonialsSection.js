@@ -10,18 +10,18 @@ const TestimonialsSection = (props) => {
     {
       id: "testimonial--1",
       title:
-        "I want to thank my RM for her support in closing the deal with a prospect from 99 Acres, We are very happy to say that you are very helpful in closing this lead and deal. We appreciate your efforts in doing so.",
-      name: "Rahul Sharma",
+        "INFRAMANTRA, Making Realty A Reality For You…true to their name reflect their commitment to the vision of their client..they are authentic genuine and honest in their dealing….their clarity ensures that you do not end up wasting your time on futile trips in your property search….last but not the least, they are professional and Heartful in good measure. My Good wishes to them.",
+      name: "Maloy Dey & Shudatta Gosh",
       designation: "Owner BPTP Noida",
-      image: "https://www.youtube.com/embed/8LSt8_11wbQ",
+      image: "https://www.youtube.com/embed/QgfzVCo38hk",
     },
     {
       id: "testimonial--2",
       title:
-        "I want to thank my RM for her support in closing the deal with a prospect from 99 Acres, We are very happy to say that you are very helpful in closing this lead and deal. We appreciate your efforts in doing so.",
-      name: "Rahul Sharma",
+        "My last experience with a brokering agent was not good, and I was a bit skeptical about this deal too but, after meeting team Inframantra, I got the confidence, and indeed it was a pleasure working with INFRAMANTRA. For me, team INFRAMANTRA has been extremely helpful.",
+      name: "Mr. Shubham Gupta",
       designation: "Owner BPTP Noida",
-      image: "https://www.youtube.com/embed/8LSt8_11wbQ",
+      image: "https://www.youtube.com/embed/QgfzVCo38hk",
     },
   ];
   return (

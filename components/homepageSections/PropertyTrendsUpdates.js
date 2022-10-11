@@ -43,7 +43,7 @@ const PropertyTrendsUpdates = (props) => {
   return (
     <Section classes="property-trends-section" pageWidth="container">
       <div className="section-head">
-        <h2>Property Trends & Updates</h2>
+        <h2>Property Trends & Blogs</h2>
         <p>Get the latest updates and insights related to real estate</p>
       </div>
       <div className="property-trends-row">

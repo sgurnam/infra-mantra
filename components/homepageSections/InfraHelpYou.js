@@ -7,28 +7,28 @@ const InfraHelpYou = (props) => {
       id: "infra-help--1",
       title: "Searching & Shortlisting Property",
       description:
-        "Lorem Ipsum is simply dummy text of the printing industry.",
+        "With the precise details of your requirement you can search the available properties.",
       image: "infra-icon-1.png",
     },
     {
       id: "infra-help--2",
       title: "Conducting Site Visit",
       description:
-        "Lorem Ipsum is simply dummy text of the printing industry.",
+        "Conduct a site visit prior to making decisions on the proposed property.",
       image: "infra-icon-2.png",
     },
     {
       id: "infra-help--3",
       title: "Hassel -Free Paper Work",
       description:
-        "Lorem Ipsum is simply dummy text of the printing industry.",
+        "We take the hassle of administration and paperwork away from you.",
       image: "infra-icon-3.png",
     },
     {
       id: "infra-help--4",
       title: "Post – Sales Assistance",
       description:
-        "Lorem Ipsum is simply dummy text of the printing industry.",
+        "We ensure that our customers are entirely satisfied with the services.",
       image: "infra-icon-1.png",
     },
   ];
