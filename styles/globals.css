@@ -1486,3 +1486,139 @@ h6 {
   opacity: .7;
 }
 
+@media (max-width: 600px) {
+
+  .banner-content {
+      max-width: 100%;
+      padding: 10px;
+  }
+
+  .nav-area {
+      display: none;
+  }
+
+  .header .row {
+      grid-template-columns: 1fr 1fr;
+  }
+
+  .banner-content h1 {
+      font-size: 21px;
+  }
+
+  .search-area .filter-head {
+      width: 90%;
+  }
+
+  .main-banner-section .main-banner-single img {
+      object-fit: cover;
+      object-position: 80%;
+  }
+
+  .featured-products-slider .row {
+      grid-template-columns: 1fr 1fr;
+  }
+
+  .propery-grid {
+      min-height: 350px;
+  }
+
+  .page-width {
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+
+  .propery-grid .content .property-btn {
+      padding: 7px 7px 7px 10px;
+      width: 100%;
+      justify-content: center;
+  }
+
+  .page-width.container {
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+
+  .collections-grids-row {
+      grid-template-columns: 1fr;
+      gap: 20px;
+  }
+
+  .collections-grids-row .collection-grid {
+      grid-column: span 2;
+  }
+
+  .infra-help-grids-row {
+      grid-template-columns: 1fr;
+  }
+
+  .infra-recommend-card .content {
+      width: 100%;
+      padding: 30px 0 0;
+  }
+
+  .infra-recommend-card .image {
+      width: 100%;
+      min-height: 260px;
+  }
+
+  .section-head.split-head .head {width: 100%;}
+
+  .property-strip {
+      width: 95%;
+      margin: 30px 0 0 2.5%;
+  }
+
+  .property-trends-row {
+      grid-template-columns: 1fr;
+  }
+
+  .top-locality-area {
+      grid-template-columns: 1fr;
+  }
+
+  .top-locality-area li {
+      border-bottom: 2px solid #bfbfbf !important;
+  }
+
+  .top-locality-area-list {
+      border: navajowhite;
+  }
+
+  .top-locality-map {
+      min-height: 350px;
+  }
+
+  .testimonial-grid .content {
+      width: 100%;
+      order: 2;
+      padding: 0 10px 40px 40px;
+  }
+
+  .testimonial-grid .iframe {
+      width: 100%;
+      order: 1;
+  }
+
+  .testimonial-grid .content h5 {
+      font-size: 15px;
+  }
+
+  .testimonial-grid .content svg {
+      left: -14px;
+      top: 30px;
+  }
+
+  .footer .footer-company-info {
+      width: 100%;
+  }
+
+  .footer .footer-links {
+      width: 100%;
+  }
+
+  .footer .footer-links ul {
+      width: 50%;
+      padding-left: 0;
+  }
+}
+
