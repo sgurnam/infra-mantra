@@ -55,6 +55,18 @@ const ServicesSection = (props) => {
             disableOnInteraction: true,
           }}
           slidesPerView={3.5}
+          breakpoints={{
+              // when window width is >= 640px
+              320: {
+                width: 640,
+                slidesPerView: 2,
+              },
+              // when window width is >= 768px
+              768: {
+                width: 768,
+                slidesPerView: 3.5,
+              },
+            }}
           modules={[Autoplay]}
         >
           {serviceList.map((element) => (
