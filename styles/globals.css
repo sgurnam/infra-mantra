@@ -1620,5 +1620,21 @@ h6 {
       width: 50%;
       padding-left: 0;
   }
+  
+  .select-location-popup {
+      width: 90%;
+  }
+
+  .select-location-inner {
+      padding: 30px 15px;
+  }
+
+  .select-location-inner .form-head {
+      text-align: center;
+  }
+
+  .select-location-grid .image {
+      height: 60px;
+  }
 }
 
