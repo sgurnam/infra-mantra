@@ -67,6 +67,18 @@ const OurPartners = (props) => {
           }}
           navigation={{ nextEl: "#partners-right", prevEl: "#partners-left" }}
           slidesPerView={5}
+          breakpoints={{
+              // when window width is >= 640px
+              320: {
+                width: 640,
+                slidesPerView: 2,
+              },
+              // when window width is >= 768px
+              768: {
+                width: 768,
+                slidesPerView: 5,
+              },
+            }}
           modules={[Autoplay, Navigation]}
         >
           {partnersList.map((element) => (
