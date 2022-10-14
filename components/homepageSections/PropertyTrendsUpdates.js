@@ -47,8 +47,8 @@ const PropertyTrendsUpdates = (props) => {
         <p>Get the latest updates and insights related to real estate</p>
       </div>
       <div className="property-trends-row">
-        {trendList.map((element) => (
-          <div className="property-trends-grid" key={element.id}>
+        {trendList.map((element, index) => (
+          <div className={`property-trends-grid ${index > 2 ? 'hide-mobile' : ''}`} key={element.id}>
             <div className="image">
               <Image src={`/assets/images/${element.image}`} layout="fill" />
             </div>

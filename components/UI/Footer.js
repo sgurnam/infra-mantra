@@ -6,7 +6,7 @@ import SelectLocation from "./SelectLocation";
 const Footer = (props) => {
   return (
     <>
-      <SelectLocation />
+      {/* <SelectLocation /> */}
       <FloatingContactBtn />
       <div className="floating-whatsapp">
         <Link href="#">
