@@ -1494,7 +1494,27 @@ h6 {
   }
 
   .nav-area {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      height: auto;
+      z-index: 99;
       display: none;
+  }
+
+  .nav-area.active {
+    display: block;
+  }
+
+  .navigation li {
+      width: 100%;
+  }
+
+  .navigation {
+      gap: 5px;
+      text-align: center;
+      background-color: #fff;
   }
 
   .header .row {
@@ -1636,7 +1656,7 @@ h6 {
   .select-location-grid .image {
       height: 60px;
   }
-  
+
   .services-grids-row .swiper {
       padding-left: 20px;
       padding-right: 20px;
