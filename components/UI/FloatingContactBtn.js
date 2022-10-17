@@ -15,7 +15,7 @@ const FloatingContactBtn = (props) => {
       <div className="floating-contact-btn" onClick={openFormHandler}>
           <span>Contact Us</span>
       </div>
-      {openContactForm && <FloatingContactForm onOpen={openFormHandler}/>}
+      {openContactForm && <FloatingContactForm onOpen={openFormHandler} heading="Contact Us" />}
       
     </>
   );

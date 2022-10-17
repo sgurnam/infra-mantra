@@ -14,6 +14,8 @@ const FeaturedProjects = (props) => {
       place: "Sector 113, Gurgaon",
       image: "/assets/images/project-1.jpg",
       link: "#",
+      bhk: "2bhk",
+      price: "13.4k/ sq ft",
     },
     {
       id: "project--2",
@@ -21,6 +23,8 @@ const FeaturedProjects = (props) => {
       place: "Sector 113, Gurgaon",
       image: "/assets/images/project-2.jpg",
       link: "#",
+      bhk: "2bhk",
+      price: "13.4k/ sq ft",
     },
     {
       id: "project--3",
@@ -28,6 +32,8 @@ const FeaturedProjects = (props) => {
       place: "Sector 113, Gurgaon",
       image: "/assets/images/project-3.jpg",
       link: "#",
+      bhk: "2bhk",
+      price: "13.4k/ sq ft",
     },
     {
       id: "project--4",
@@ -35,6 +41,8 @@ const FeaturedProjects = (props) => {
       place: "Sector 113, Gurgaon",
       image: "/assets/images/project-4.jpg",
       link: "#",
+      bhk: "2bhk",
+      price: "13.4k/ sq ft",
     },
     {
       id: "project--5",
@@ -42,6 +50,8 @@ const FeaturedProjects = (props) => {
       place: "Sector 113, Gurgaon",
       image: "/assets/images/project-5.jpg",
       link: "#",
+      bhk: "2bhk",
+      price: "13.4k/ sq ft",
     },
   ];
 
@@ -73,7 +83,10 @@ const FeaturedProjects = (props) => {
             modules={[Autoplay, Navigation]}
           >
             {projectList.map((element, index) => (
-              <SwiperSlide className={index > 2 ? 'hide-mobile' : ''} key={`projectList--${element.id}`}>
+              <SwiperSlide
+                className={index > 2 ? "hide-mobile" : ""}
+                key={`projectList--${element.id}`}
+              >
                 <div className="propery-grid">
                   <div className="property-image">
                     <Image src={element.image} layout="fill" />
@@ -82,9 +95,14 @@ const FeaturedProjects = (props) => {
                     <div>
                       <div className="name">{element.title}</div>
                       <div className="place">{element.place}</div>
+                      <div className="info">
+                        {element.bhk}
+                        <br />
+                        {element.price}
+                      </div>
                     </div>
                     <div className="button">
-                      <Link href={element.link} >
+                      <Link href={element.link}>
                         <a className="property-btn">
                           View Property
                           <svg

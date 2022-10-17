@@ -12,7 +12,7 @@ const FloatingContactForm = (props) => {
     <div className="floating-form">
       <form>
         <div className="form-head">
-          <h3>Contact Us</h3>
+          <h3>{props.heading}</h3>
           <p>
             Fill the details below and we will get in touch with you within 24
             hours.
@@ -53,6 +53,13 @@ const FloatingContactForm = (props) => {
             <label htmlFor="email">Email</label>
             <input type="email" name="email" />
           </div>
+          {props.type === "getIntouch" && (
+            <div className="form-group">
+              <label htmlFor="address">Address</label>
+              <input type="text" name="address" />
+            </div>
+          )}
+
           <div className="form-group">
             <label htmlFor="messsage">Messsage</label>
             <textarea type="email" name="messsage" rows="5"></textarea>

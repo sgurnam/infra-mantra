@@ -12,23 +12,23 @@ const InfraHelpYou = (props) => {
     },
     {
       id: "infra-help--2",
-      title: "Conducting Site Visit",
+      title: "Organizing Site Visit",
       description:
-        "Conduct a site visit prior to making decisions on the proposed property.",
+        "Organizing site visit, where Inframantra will assist you in visiting multiple project sites based on your selection.",
       image: "infra-icon-2.png",
     },
     {
       id: "infra-help--3",
-      title: "Hassel -Free Paper Work",
+      title: "Home Loan",
       description:
-        "We take the hassle of administration and paperwork away from you.",
+        "We provide Home loan facilitation through major banks across India and help you with documentations.",
       image: "infra-icon-3.png",
     },
     {
       id: "infra-help--4",
-      title: "Post – Sales Assistance",
+      title: "Post - Sales Assistance",
       description:
-        "We ensure that our customers are entirely satisfied with the services.",
+        "We help our customers with all necessary documentation and address all project related queries.",
       image: "infra-icon-1.png",
     },
   ];

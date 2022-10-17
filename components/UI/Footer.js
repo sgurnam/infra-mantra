@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Disclaimer from "./Disclaimer";
 import FloatingContactBtn from "./FloatingContactBtn";
 import SelectLocation from "./SelectLocation";
 
@@ -7,6 +8,7 @@ const Footer = (props) => {
   return (
     <>
       {/* <SelectLocation /> */}
+      <Disclaimer />
       <FloatingContactBtn />
       <div className="floating-whatsapp">
         <Link href="#">
@@ -49,9 +51,9 @@ const Footer = (props) => {
               </div>
               <div className="footer-about">
                 <p>
-                  InfraMantra is a Real Estate Firm that helps to Build Value on
-                  Commercial and Residential properties. We work with the top
-                  Builders in Delhi/NCR
+                  Inframantra is a PropTech advisory firm that helps customers -
+                  search, discover, buy and manage residential and commercial
+                  properties. We work with top builders across India.
                 </p>
                 <div className="social-icon">
                   <div className="social">
@@ -199,17 +201,7 @@ const Footer = (props) => {
               </li>
               <li>
                 <Link href="#">
-                  <a>Resale flats in Gurgaon</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="#">
                   <a>Ready to move flats in Gurgaon</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="#">
-                  <a>Fully furnished apartments in Gurgaon</a>
                 </Link>
               </li>
               <li>
@@ -236,17 +228,7 @@ const Footer = (props) => {
               </li>
               <li>
                 <Link href="#">
-                  <a>Resale flats in Gurgaon</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="#">
                   <a>Ready to move flats in Gurgaon</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="#">
-                  <a>Fully furnished apartments in Gurgaon</a>
                 </Link>
               </li>
               <li>
@@ -273,17 +255,7 @@ const Footer = (props) => {
               </li>
               <li>
                 <Link href="#">
-                  <a>Resale flats in Gurgaon</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="#">
                   <a>Ready to move flats in Gurgaon</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="#">
-                  <a>Fully furnished apartments in Gurgaon</a>
                 </Link>
               </li>
               <li>

@@ -5,37 +5,37 @@ const PropertyTrendsUpdates = (props) => {
   const trendList = [
     {
       id: "trends--1",
-      title: "MCD launches new property tax amnesty scheme",
+      title: "4th Room Needed in Every Home",
       description: "Sep 16, 2022",
       image: "trends-1.jpg",
     },
     {
       id: "trends--2",
-      title: "North-west corner Vastu: Detailed Guide",
+      title: "Tips to reduce Home Loan Interest Rates",
       description: "Sep 16, 2022",
       image: "trends-2.jpg",
     },
     {
       id: "trends--3",
-      title: "Five popular PG hubs in North Delhi",
+      title: "Benefits of RERA for NRIs Property Buyers",
       description: "Sep 16, 2022",
       image: "trends-3.jpg",
     },
     {
       id: "trends--4",
-      title: "MCD launches new property tax amnesty scheme",
+      title: "Significant of colors",
       description: "Sep 16, 2022",
       image: "trends-4.jpg",
     },
     {
       id: "trends--5",
-      title: "North-west corner Vastu: Detailed Guide",
+      title: "Why Is It The Right Time To Buy A Home",
       description: "Sep 16, 2022",
       image: "trends-5.jpg",
     },
     {
       id: "trends--6",
-      title: "Five popular PG hubs in North Delhi",
+      title: "5 Things To Keep In Mind While Buying The Home",
       description: "Sep 16, 2022",
       image: "trends-6.jpg",
     },

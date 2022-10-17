@@ -23,6 +23,28 @@ const TestimonialsSection = (props) => {
       designation: "Owner BPTP Noida",
       image: "https://www.youtube.com/embed/QgfzVCo38hk",
     },
+    {
+      id: "testimonial--3",
+      title:
+        "INFRAMANTRA, Making Realty A Reality For You…true to their name reflect their commitment to the vision of their client..they are authentic genuine and honest in their dealing….their clarity ensures that you do not end up wasting your time on futile trips in your property search….last but not the least, they are professional and Heartful in good measure. My Good wishes to them.",
+      name: "Maloy Dey & Shudatta Gosh",
+      designation: "Owner BPTP Noida",
+      image: "https://www.youtube.com/embed/QgfzVCo38hk",
+    },
+    {
+      id: "testimonial--4",
+      title:
+        "My last experience with a brokering agent was not good, and I was a bit skeptical about this deal too but, after meeting team Inframantra, I got the confidence, and indeed it was a pleasure working with INFRAMANTRA. For me, team INFRAMANTRA has been extremely helpful. My last experience with a brokering agent was not good, and I was a bit skeptical about this deal too but, after meeting team Inframantra, I got the confidence, and indeed it was a pleasure working with INFRAMANTRA. For me, team INFRAMANTRA has been extremely helpful.",
+      name: "Mr. Shubham Gupta",
+      designation: "Owner BPTP Noida",
+    },
+    {
+      id: "testimonial--5",
+      title:
+        "My last experience with a brokering agent was not good, and I was a bit skeptical about this deal too but, after meeting team Inframantra, I got the confidence, and indeed it was a pleasure working with INFRAMANTRA. For me, team INFRAMANTRA has been extremely helpful. My last experience with a brokering agent was not good, and I was a bit skeptical about this deal too but, after meeting team Inframantra, I got the confidence, and indeed it was a pleasure working with INFRAMANTRA. For me, team INFRAMANTRA has been extremely helpful.",
+      name: "Mr. Shubham Gupta",
+      designation: "Owner BPTP Noida",
+    },
   ];
   return (
     <Section classes="testimonials-section" pageWidth="container">
@@ -45,7 +67,7 @@ const TestimonialsSection = (props) => {
         >
           {testimonialsList.map((element) => (
             <SwiperSlide key={element.id}>
-              <div className="testimonial-grid">
+              <div className={`testimonial-grid ${element.image ? '' : ' text-only'}`}>
                 <div className="content">
                   <h5>{element.title}</h5>
                   <p className="name">{element.name}</p>
@@ -57,27 +79,24 @@ const TestimonialsSection = (props) => {
                     />
                   </svg>
                 </div>
-                <div className="iframe">
-                  <iframe
-                    width="560"
-                    height="315"
-                    src={element.image}
-                    title="YouTube video player"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                </div>
+                {element.image && (
+                  <div className="iframe">
+                    <iframe
+                      width="560"
+                      height="315"
+                      src={element.image}
+                      title="YouTube video player"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    ></iframe>
+                  </div>
+                )}
               </div>
             </SwiperSlide>
           ))}
         </Swiper>
-        <svg
-          width="661"
-          height="158"
-          viewBox="0 0 661 158"
-          fill="none"
-        >
+        <svg width="661" height="158" viewBox="0 0 661 158" fill="none">
           <mask
             id="mask0_560_6"
             maskUnits="userSpaceOnUse"

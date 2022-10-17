@@ -66,13 +66,13 @@ const OurPartners = (props) => {
             disableOnInteraction: true,
           }}
           navigation={{ nextEl: "#partners-right", prevEl: "#partners-left" }}
-          slidesPerView={5}
+          slidesPerView={6}
           breakpoints={{
               320: {
                 slidesPerView: 2,
               },
               768: {
-                slidesPerView: 5,
+                slidesPerView: 6,
               },
             }}
           modules={[Autoplay, Navigation]}

@@ -29,10 +29,10 @@ export default function Home() {
     >
       <MainBanner items={bannerItems} search={true}/>
       <FeaturedProjects />
+      <InfraRecommendationsSection />
       <FeaturedCollections />
       <ServicesSection />
       <InfraHelpYou />
-      <InfraRecommendationsSection />
       <PropertyTrendsUpdates />
       <TopLocalities />
       <TestimonialsSection />

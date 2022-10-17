@@ -24,14 +24,14 @@ const ServicesSection = (props) => {
     {
       id: "service--3",
       title: "Home Interiors ",
-      description: "Hire professional interior decorators and feel the feeling of being at Home",
+      description: "Hire professional interior decorators and get the feeling of being at Home",
       image: "service-3.png",
       url: "#",
     },
     {
       id: "service--4",
       title: "Property Management Services",
-      description: "Experience the super easy property buying process with us. From evaluating the property to handing over the keys, we do it all.",
+      description: "We work closely with the owners assisting them in liquidating or generating rental yields from their assets",
       image: "service-4.png",
       url: "#",
     },
