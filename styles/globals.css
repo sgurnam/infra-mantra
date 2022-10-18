@@ -1245,9 +1245,8 @@ h6 {
   grid-template-columns: 1fr 2.5fr;
   border: 2px solid #bfbfbf;
   border-radius: 15px;
-  overflow: hidden;
-  min-height: 70vh;
-}
+  overflow: hidden; 
+} 
 
 .top-locality-map iframe {
   border: none;
