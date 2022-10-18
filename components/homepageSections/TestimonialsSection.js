@@ -24,14 +24,6 @@ const TestimonialsSection = (props) => {
       image: "https://www.youtube.com/embed/QgfzVCo38hk",
     },
     {
-      id: "testimonial--3",
-      title:
-        "INFRAMANTRA, Making Realty A Reality For You…true to their name reflect their commitment to the vision of their client..they are authentic genuine and honest in their dealing….their clarity ensures that you do not end up wasting your time on futile trips in your property search….last but not the least, they are professional and Heartful in good measure. My Good wishes to them.",
-      name: "Maloy Dey & Shudatta Gosh",
-      designation: "Owner BPTP Noida",
-      image: "https://www.youtube.com/embed/QgfzVCo38hk",
-    },
-    {
       id: "testimonial--4",
       title:
         "Thank you to the entire INFRAMANTRA team who put in their effort to make this happen. It is excellent work and it’s a clear reflection of their quality and professionalism. From the initial design towards the final closing, all our concerns were addressed immediately. Highly recommended for a hassle-free experience.",
