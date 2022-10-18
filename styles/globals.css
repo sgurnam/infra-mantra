@@ -1242,10 +1242,11 @@ h6 {
 
 .top-locality-area {
   display: grid;
-  grid-template-columns: 1fr 1fr 1.7fr;
+  grid-template-columns: 1fr 2.5fr;
   border: 2px solid #bfbfbf;
   border-radius: 15px;
   overflow: hidden;
+  min-height: 70vh;
 }
 
 .top-locality-map iframe {
@@ -1272,6 +1273,7 @@ h6 {
   border-top: none;
   border-bottom: none;
   list-style: none;
+  border-left: none;
 }
 
 .top-locality-area li {
@@ -1300,6 +1302,47 @@ h6 {
 
 .top-locality-area-list li strong {
   margin-left: 15px;
+}
+
+.top-locality-category {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  background-color: #000000b0;
+  border-radius: 60px 60px 0px 0;
+  padding-bottom: 2px;
+  box-shadow: 0 -5px 10px #0000000f;
+}
+
+.top-locality-category li {
+  padding: 9px 17px;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  color: #bfbfbf;
+  font-weight: 500;
+  transition: 0.2s;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.top-locality-category li:first-child {
+  border-radius: 60px 40px 40px 0 !important;
+  padding-left: 40px;
+}
+
+.top-locality-category li:last-child {
+  border-radius: 40px 60px 0px 40px !important;
+  padding-right: 40px;
+}
+
+.top-locality-category li:hover, .top-locality-category li.active {
+  background-color: #fff;
+  color: #cf9d3c;
+  font-weight: 500;
+  border-radius: 60px;
 }
 
 .floating-contact-btn {

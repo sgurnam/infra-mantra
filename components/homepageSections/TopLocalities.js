@@ -9,33 +9,33 @@ const TopLocalities = (props) => {
         <p>See the top trending localities in Gurgaon</p>
       </div>
       <div className="top-localities-row">
+        <div className="top-locality-category">
+          <li>
+            <div className="icon">
+              <Image src="/assets/images/locality-icon-1.png" layout="fill" />
+            </div>
+            Popular
+          </li>
+          <li className="active">
+            <div className="icon">
+              <Image src="/assets/images/locality-icon-2.png" layout="fill" />
+            </div>
+            Investment Hotspot
+          </li>
+          {/* <li>
+            <div className="icon">
+              <Image src="/assets/images/locality-icon-3.png" layout="fill" />
+            </div>
+            Affordable
+          </li> */}
+          <li>
+            <div className="icon">
+              <Image src="/assets/images/locality-icon-4.png" layout="fill" />
+            </div>
+            Great Lifestyle
+          </li>
+        </div>
         <div className="top-locality-area">
-          <div className="top-locality-category">
-            <li>
-              <div className="icon">
-                <Image src="/assets/images/locality-icon-1.png" layout="fill" />
-              </div>
-              Popular
-            </li>
-            <li className="active">
-              <div className="icon">
-                <Image src="/assets/images/locality-icon-2.png" layout="fill" />
-              </div>
-              Investment Hotspot
-            </li>
-            <li>
-              <div className="icon">
-                <Image src="/assets/images/locality-icon-3.png" layout="fill" />
-              </div>
-              Affordable
-            </li>
-            <li>
-              <div className="icon">
-                <Image src="/assets/images/locality-icon-4.png" layout="fill" />
-              </div>
-              Great Lifestyle
-            </li>
-          </div>
           <div className="top-locality-area-list">
             <li>
               Paschim Vih... <strong>₹13.3 K/ sq.ft</strong>
