@@ -1329,12 +1329,12 @@ h6 {
 }
 
 .top-locality-category li:first-child {
-  border-radius: 60px 40px 40px 0 !important;
+  border-radius: 80px 40px 40px 0 !important;
   padding-left: 40px;
 }
 
 .top-locality-category li:last-child {
-  border-radius: 40px 60px 0px 40px !important;
+  border-radius: 40px 80px 0px 40px !important;
   padding-right: 40px;
 }
 
