@@ -15,7 +15,7 @@ const FeaturedProjects = (props) => {
       image: "/assets/images/project-1.jpg",
       link: "#",
       bhk: "2bhk",
-      price: "13.4k/ sq ft",
+      price: "Starting from 1.3 CR*",
     },
     {
       id: "project--2",
@@ -24,7 +24,7 @@ const FeaturedProjects = (props) => {
       image: "/assets/images/project-2.jpg",
       link: "#",
       bhk: "2bhk",
-      price: "13.4k/ sq ft",
+      price: "Starting from 1.3 CR*",
     },
     {
       id: "project--3",
@@ -33,7 +33,7 @@ const FeaturedProjects = (props) => {
       image: "/assets/images/project-3.jpg",
       link: "#",
       bhk: "2bhk",
-      price: "13.4k/ sq ft",
+      price: "Starting from 1.3 CR*",
     },
     {
       id: "project--4",
@@ -42,7 +42,7 @@ const FeaturedProjects = (props) => {
       image: "/assets/images/project-4.jpg",
       link: "#",
       bhk: "2bhk",
-      price: "13.4k/ sq ft",
+      price: "Starting from 1.3 CR*",
     },
     {
       id: "project--5",
@@ -51,7 +51,7 @@ const FeaturedProjects = (props) => {
       image: "/assets/images/project-5.jpg",
       link: "#",
       bhk: "2bhk",
-      price: "13.4k/ sq ft",
+      price: "Starting from 1.3 CR*",
     },
   ];
 

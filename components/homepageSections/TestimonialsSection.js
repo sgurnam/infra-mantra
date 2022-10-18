@@ -34,15 +34,15 @@ const TestimonialsSection = (props) => {
     {
       id: "testimonial--4",
       title:
-        "My last experience with a brokering agent was not good, and I was a bit skeptical about this deal too but, after meeting team Inframantra, I got the confidence, and indeed it was a pleasure working with INFRAMANTRA. For me, team INFRAMANTRA has been extremely helpful. My last experience with a brokering agent was not good, and I was a bit skeptical about this deal too but, after meeting team Inframantra, I got the confidence, and indeed it was a pleasure working with INFRAMANTRA. For me, team INFRAMANTRA has been extremely helpful.",
-      name: "Mr. Shubham Gupta",
+        "Thank you to the entire INFRAMANTRA team who put in their effort to make this happen. It is excellent work and it’s a clear reflection of their quality and professionalism. From the initial design towards the final closing, all our concerns were addressed immediately. Highly recommended for a hassle-free experience.",
+      name: "Mr. Vishal",
       designation: "Owner BPTP Noida",
     },
     {
       id: "testimonial--5",
       title:
-        "My last experience with a brokering agent was not good, and I was a bit skeptical about this deal too but, after meeting team Inframantra, I got the confidence, and indeed it was a pleasure working with INFRAMANTRA. For me, team INFRAMANTRA has been extremely helpful. My last experience with a brokering agent was not good, and I was a bit skeptical about this deal too but, after meeting team Inframantra, I got the confidence, and indeed it was a pleasure working with INFRAMANTRA. For me, team INFRAMANTRA has been extremely helpful.",
-      name: "Mr. Shubham Gupta",
+        "I sincerely thank and appreciate the efforts and hard work done by team INFRAMANTRA for my desperate search for a home in Sector-95 Gurgaon. They suggested to me such a beautiful option SAAN VERDANTE which matches my requirement. They have done a commendable job and to my entire satisfaction.",
+      name: "Mr. Rakesh",
       designation: "Owner BPTP Noida",
     },
   ];
