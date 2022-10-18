@@ -145,11 +145,11 @@ const Footer = (props) => {
                     <a>Buy</a>
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="#">
                     <a>Rent</a>
                   </Link>
-                </li>
+                </li> */}
               </ul>
               <ul>
                 <li>
@@ -204,11 +204,11 @@ const Footer = (props) => {
                   <a>Ready to move flats in Gurgaon</a>
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="#">
                   <a>Resal apartments Gurgaon</a>
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="#">
                   <a>Townships in Gurgaon</a>
@@ -231,11 +231,11 @@ const Footer = (props) => {
                   <a>Ready to move flats in Gurgaon</a>
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="#">
                   <a>Resal apartments Gurgaon</a>
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="#">
                   <a>Townships in Gurgaon</a>
@@ -258,11 +258,11 @@ const Footer = (props) => {
                   <a>Ready to move flats in Gurgaon</a>
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="#">
                   <a>Resal apartments Gurgaon</a>
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="#">
                   <a>Townships in Gurgaon</a>

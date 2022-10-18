@@ -1,5 +1,3 @@
-import Head from "next/head";
-import Image from "next/image";
 import FeaturedCollections from "../components/homepageSections/FeaturedCollections";
 import FeaturedProjects from "../components/homepageSections/FeaturedProjects";
 import InfraHelpYou from "../components/homepageSections/InfraHelpYou";
@@ -11,7 +9,6 @@ import TestimonialsSection from "../components/homepageSections/TestimonialsSect
 import TopLocalities from "../components/homepageSections/TopLocalities";
 import MainBanner from "../components/UI/MainBanner";
 import Wrapper from "../components/UI/Wrapper";
-import styles from "../styles/Home.module.css";
 
 export default function Home() {
   const bannerItems = [
@@ -28,8 +25,8 @@ export default function Home() {
       description="This is homepage description"
     >
       <MainBanner items={bannerItems} search={true}/>
-      <FeaturedProjects />
       <InfraRecommendationsSection />
+      <FeaturedProjects />
       <FeaturedCollections />
       <ServicesSection />
       <InfraHelpYou />

@@ -24,25 +24,17 @@ const TestimonialsSection = (props) => {
       image: "https://www.youtube.com/embed/QgfzVCo38hk",
     },
     {
-      id: "testimonial--3",
-      title:
-        "INFRAMANTRA, Making Realty A Reality For You…true to their name reflect their commitment to the vision of their client..they are authentic genuine and honest in their dealing….their clarity ensures that you do not end up wasting your time on futile trips in your property search….last but not the least, they are professional and Heartful in good measure. My Good wishes to them.",
-      name: "Maloy Dey & Shudatta Gosh",
-      designation: "Owner BPTP Noida",
-      image: "https://www.youtube.com/embed/QgfzVCo38hk",
-    },
-    {
       id: "testimonial--4",
       title:
-        "My last experience with a brokering agent was not good, and I was a bit skeptical about this deal too but, after meeting team Inframantra, I got the confidence, and indeed it was a pleasure working with INFRAMANTRA. For me, team INFRAMANTRA has been extremely helpful. My last experience with a brokering agent was not good, and I was a bit skeptical about this deal too but, after meeting team Inframantra, I got the confidence, and indeed it was a pleasure working with INFRAMANTRA. For me, team INFRAMANTRA has been extremely helpful.",
-      name: "Mr. Shubham Gupta",
+        "Thank you to the entire INFRAMANTRA team who put in their effort to make this happen. It is excellent work and it’s a clear reflection of their quality and professionalism. From the initial design towards the final closing, all our concerns were addressed immediately. Highly recommended for a hassle-free experience.",
+      name: "Mr. Vishal",
       designation: "Owner BPTP Noida",
     },
     {
       id: "testimonial--5",
       title:
-        "My last experience with a brokering agent was not good, and I was a bit skeptical about this deal too but, after meeting team Inframantra, I got the confidence, and indeed it was a pleasure working with INFRAMANTRA. For me, team INFRAMANTRA has been extremely helpful. My last experience with a brokering agent was not good, and I was a bit skeptical about this deal too but, after meeting team Inframantra, I got the confidence, and indeed it was a pleasure working with INFRAMANTRA. For me, team INFRAMANTRA has been extremely helpful.",
-      name: "Mr. Shubham Gupta",
+        "I sincerely thank and appreciate the efforts and hard work done by team INFRAMANTRA for my desperate search for a home in Sector-95 Gurgaon. They suggested to me such a beautiful option SAAN VERDANTE which matches my requirement. They have done a commendable job and to my entire satisfaction.",
+      name: "Mr. Rakesh",
       designation: "Owner BPTP Noida",
     },
   ];
