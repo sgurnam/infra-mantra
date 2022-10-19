@@ -7,7 +7,7 @@ const FeaturedCollections = (props) => {
       id: "collection--1",
       title: "RERA Certified Projects",
       description: "Find all the RERA registered projects with price, floor plan, photos, map view, features, etc.",
-      image: "RERA-certified-projects.webp",
+      image: "RERA-certified-Projects.webp",
       url: "#",
     },
     {
