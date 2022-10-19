@@ -1,3 +1,6 @@
+import FiltersArea from "../components/listingSections/filtersArea";
+import SearchListing from "../components/listingSections/SearchListing";
+import Section from "../components/UI/Section";
 import Wrapper from "../components/UI/Wrapper";
 
 export default function Home() {
@@ -13,6 +16,11 @@ export default function Home() {
     <Wrapper
       title="Infra Mantra - Listing"
       description="This is homepage description"
-    ></Wrapper>
+    >
+      <SearchListing />
+      {/* <Section  classes="infra-recommend-section" pageWidth=""> */}
+        <FiltersArea />
+      {/* </Section> */}
+    </Wrapper>
   );
 }
