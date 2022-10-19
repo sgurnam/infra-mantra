@@ -12,12 +12,9 @@ const MainBanner = (props) => {
 
   const items = props.items;
   const localities = [
-    "Dwarka",
-    "Uttam Nagar",
-    "Punjabi Bagh",
-    "Rohini",
-    "Majnu ka Tilla",
-    "Janakpuri",
+    "Gurgaon",
+    "Noida",
+    "Pune",
   ];
 
   return (

@@ -8,28 +8,28 @@ const InfraHelpYou = (props) => {
       title: "Searching & Shortlisting Property",
       description:
         "With the precise details of your requirement you can search the available properties.",
-      image: "infra-icon-1.png",
+      image: "Searching-Shortlisting-Property.png",
     },
     {
       id: "infra-help--2",
       title: "Organizing Site Visit",
       description:
         "Organizing site visit, where Inframantra will assist you in visiting multiple project sites based on your selection.",
-      image: "infra-icon-2.png",
+      image: "Organizing-Site-Visit.png",
     },
     {
       id: "infra-help--3",
       title: "Home Loan",
       description:
         "We provide Home loan facilitation through major banks across India and help you with documentations.",
-      image: "infra-icon-3.png",
+      image: "Home-Loan.png",
     },
     {
       id: "infra-help--4",
       title: "Post - Sales Assistance",
       description:
         "We help our customers with all necessary documentation and address all project related queries.",
-      image: "infra-icon-1.png",
+      image: "Post-Sales-Assistance.png",
     },
   ];
   return (

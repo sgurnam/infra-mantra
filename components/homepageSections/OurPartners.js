@@ -11,37 +11,37 @@ const OurPartners = (props) => {
   const partnersList = [
     {
       id: "partners--1",
-      image: "partner-1.png",
+      image: "logo-1.png",
       url: "#",
     },
     {
       id: "partners--2",
-      image: "partner-2.png",
+      image: "logo-2.png",
       url: "#",
     },
     {
       id: "partners--3",
-      image: "partner-3.png",
+      image: "logo-3.png",
       url: "#",
     },
     {
       id: "partners--4",
-      image: "partner-4.png",
+      image: "logo-4.png",
       url: "#",
     },
     {
       id: "partners--5",
-      image: "partner-5.png",
+      image: "logo-5.jpg",
       url: "#",
     },
     {
       id: "partners--6",
-      image: "partner-2.png",
+      image: "logo-6.png",
       url: "#",
     },
     {
       id: "partners--7",
-      image: "partner-3.png",
+      image: "logo-7.jpg",
       url: "#",
     },
   ];
