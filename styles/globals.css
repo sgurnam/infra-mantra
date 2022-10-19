@@ -434,6 +434,8 @@ h6 {
   flex-direction: column;
   /* height: 100%; */
   font-weight: 500;
+  width: 100%;
+  background: linear-gradient( 180deg, rgb(0 0 0 / 0%) 0%, rgb(0 0 0 / 45%) 0.01%, rgb(0 0 0 / 0%) 50% );
 }
 
 .propery-grid .content .property-btn {
@@ -447,6 +449,7 @@ h6 {
   color: #000;
   font-size: 14px;
   border-radius: 7px;
+  width: fit-content;
 }
 
 .propery-grid:hover .content .property-btn {
@@ -1098,6 +1101,10 @@ h6 {
   border-radius: 15px;
 }
 
+.propert-info {
+  max-width: 25%;
+}
+
 .propert-info-area {
   display: flex;
   flex-wrap: wrap;
@@ -1141,6 +1148,7 @@ h6 {
   height: 40px;
   min-height: initial;
   width: auto;
+  border-radius: 0;
 }
 
 .footer {

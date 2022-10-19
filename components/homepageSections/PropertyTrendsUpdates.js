@@ -23,7 +23,7 @@ const PropertyTrendsUpdates = (props) => {
     },
     {
       id: "trends--4",
-      title: "Significant of colors",
+      title: "Significance of colors according to Vastu",
       description: "Sep 16, 2022",
       image: "trends-4.jpg",
     },

@@ -20,12 +20,12 @@ const InfraRecommendationsSection = (props) => {
   const infraList = [
     {
       id: "infra-recommend-1",
-      title: "Shapoorji Pallonji Joyville",
-      heroImage: "recommendation-image.jpg",
+      title: "Tulip Monsella",
+      heroImage: "Tulip-Monsella.jpg",
       projectInfoList: [
-        "20+ Years of proven track record",
-        "Appreciation of 20% Real Estate Value YoY",
-        "10 Mins from IGI Airport",
+        "30+ years of experience in construction, real estate and development.",
+        "RERA Certified",
+        "1 minute drive from rapid metro station.",
       ],
       amenitiesList: [
         {
@@ -45,20 +45,20 @@ const InfraRecommendationsSection = (props) => {
           icon: "amenities-4.jpg",
         },
       ],
-      builderIcon: "builder-image.jpg",
-      location: "Sector 37D, Gurgaon",
-      apartments: "2BHK/3BHK",
-      price: "1.8 Cr",
+      builderIcon: "tulip-monsella-logo.jpg",
+      location: "Golf Course Road, Sector-53, Gurgaon",
+      apartments: "3, 4, 5 BHK",
+      price: "₹ 5.74 Cr onwards",
       url: "#",
     },
     {
       id: "infra-recommend-1",
-      title: "Shapoorji Pallonji Joyville",
-      heroImage: "recommendation-image.jpg",
+      title: "Saan Verdante",
+      heroImage: "Saan-verdante.jpg",
       projectInfoList: [
-        "20+ Years of proven track record",
-        "Appreciation of 20% Real Estate Value YoY",
-        "10 Mins from IGI Airport",
+        "20+ years of experience in real estate industry.",
+        "RERA Certified",
+        "10 minutes’ drive from NH 48 and Dwarka Expressway.",
       ],
       amenitiesList: [
         {
@@ -78,10 +78,10 @@ const InfraRecommendationsSection = (props) => {
           icon: "amenities-4.jpg",
         },
       ],
-      builderIcon: "builder-image.jpg",
-      location: "Sector 37D, Gurgaon",
-      apartments: "2BHK/3BHK",
-      price: "1.8 Cr",
+      builderIcon: "Saan-verdante-logo.png",
+      location: "Sector-95, Gurgaon",
+      apartments: "3, 4 BHK",
+      price: "₹ 1.57 Cr onwards",
       url: "#",
     },
   ];
