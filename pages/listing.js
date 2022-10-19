@@ -1,4 +1,4 @@
-import FiltersArea from "../components/listingSections/filtersArea";
+import FiltersArea from "../components/listingSections/FiltersArea";
 import SearchListing from "../components/listingSections/SearchListing";
 import Section from "../components/UI/Section";
 import Wrapper from "../components/UI/Wrapper";
