@@ -15,7 +15,7 @@ const InfraHelpYou = (props) => {
       title: "Organizing Site Visit",
       description:
         "Organizing site visit, where Inframantra will assist you in visiting multiple project sites based on your selection.",
-      image: "Organizing-Site-Visit.png",
+      image: "Organizing-Site-Visit-1.png",
     },
     {
       id: "infra-help--3",
