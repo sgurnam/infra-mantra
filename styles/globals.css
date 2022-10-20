@@ -1857,13 +1857,14 @@ h6 {
 .listing-grid .content .amenities {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 17px;
   margin-top: 30px;
 }
 
 .listing-grid .content .amenities .image {
   height: 35px;
   width: calc((100% / 3) - 12px);
+  opacity: .6;
 }
 
 .listing-grid .content .amenities .image img {
