@@ -4,14 +4,14 @@ const ListingGrid = (props) => {
   return (
     <div className="listing-grid">
       <div className="image">
-        <Image src="/assets/images/listing-grid-1.jpg" layout="fill" />
+        <Image src={props.image} layout="fill" />
         <div className="logo">
-          <Image src="/assets/images/listing-grid-logo-1.jpg" layout="fill" />
+          <Image src={props.logo} layout="fill" />
         </div>
       </div>
       <div className="content">
         <div className="content-info">
-          <div className="name">Birla Navya</div>
+          <div className="name">{props.name}</div>
           <div className="sector">Sector 63A, Gurgaon</div>
           <div className="description">
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -52,6 +52,18 @@ const ListingGrid = (props) => {
         <div className="content-price">
             <div className="price">₹1.16 Cr - 2.01 Cr</div>
             <div className="amenities">
+                <div className="image">
+                    <Image src="/assets/images/amenities-1.jpg" layout="fill" />
+                </div>
+                <div className="image">
+                    <Image src="/assets/images/amenities-2.jpg" layout="fill" />
+                </div>
+                <div className="image">
+                    <Image src="/assets/images/amenities-3.jpg" layout="fill" />
+                </div>
+                <div className="image">
+                    <Image src="/assets/images/amenities-4.jpg" layout="fill" />
+                </div>
                 <div className="image">
                     <Image src="/assets/images/amenities-1.jpg" layout="fill" />
                 </div>
