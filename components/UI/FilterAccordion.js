@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const FilterAccordion = (props) => {
-  const [openAcc, setOpenAcc] = useState(props.activeStatus);
+  const [openAcc, setOpenAcc] = useState(props.activeState);
 
   const accordionHandler = () => {
     openAcc ? setOpenAcc(false) : setOpenAcc(true);

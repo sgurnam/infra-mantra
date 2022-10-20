@@ -1731,6 +1731,139 @@ h6 {
   color: #fff;
 }
 
+.listing-row {
+  width: 75%;
+  padding: 30px 30px;
+}
+
+.listing-search+.infra-recommend-section {
+  padding: 0;
+}
+
+.listing-search+.infra-recommend-section .page-width {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.listing-heading-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  color: #313131;
+  margin-bottom: 30px;
+}
+
+
+.listing-grid {
+  position: relative;
+  border: 1px solid #D9D9D9;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 35px;
+}
+
+.listing-grid .image {
+  position: relative;
+  width: 40%;
+  height: auto;
+}
+
+
+.listing-grid .content {
+  width: 60%;
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  color: #313131;
+}
+
+.listing-grid .content .content-info {
+  width: 65%;
+}
+
+.listing-grid .content .content-price {
+  width: 35%;
+}
+
+.listing-grid .image .logo {
+  position: absolute;
+  top: 20px;
+  height: 60px;
+  width: 110px;
+  right: 0;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px 0 0 10px;
+}
+
+.listing-grid .image .logo span {width: 85% !important;height: 85% !important;object-fit: contain;top: 50% !important;left: 50% !important;transform: translate(-50%, -50%);}
+
+.listing-grid .content .sector {
+  font-size: 15px;
+}
+
+.listing-grid .content .name {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.listing-grid .content .description {
+  margin: 16px 0;
+}
+
+.listing-grid .content .type-price {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 25px;
+}
+
+.listing-grid .content .sector, 
+.listing-grid .content .type-price .label {
+  color: #959595;
+}
+
+.listing-grid .content .price {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.listing-grid .content .type-price .label {
+  margin-bottom: 7px;
+  font-size: 15px;
+}
+
+.listing-grid .content .type-price .info {
+  font-weight: 600;
+}
+
+.listing-grid .content .button {
+  font-size: 15px;
+}
+
+.listing-heading-row .title {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.listing-heading-row .sorting-filter select {
+  padding: 8px 20px;
+  border: 1px solid #D9D9D9;
+  border-radius: 35px;
+}
+
+.listing-heading-row .description {
+  margin-bottom: 0;
+  color: #535353;
+  font-size: 15px;
+  margin-top: 12px;
+}
+
 @media (max-width: 600px) {
   .banner-content {
     max-width: 100%;

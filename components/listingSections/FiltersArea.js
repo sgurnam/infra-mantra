@@ -34,7 +34,7 @@ const FiltersArea = (props) => {
         <FilterAccordion
           key={`filterrListing--${index}`}
           filterHead={filter.heading}
-          filterList={filter.filters} 
+          filterList={filter.filters}
           activeState={filter.activeStatus}
         />
       ))}
