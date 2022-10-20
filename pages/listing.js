@@ -1,4 +1,5 @@
 import FiltersArea from "../components/listingSections/FiltersArea";
+import ListingWrapper from "../components/listingSections/ListingWrapper";
 import SearchListing from "../components/listingSections/SearchListing";
 import Section from "../components/UI/Section";
 import Wrapper from "../components/UI/Wrapper";
@@ -18,9 +19,10 @@ export default function Home() {
       description="This is homepage description"
     >
       <SearchListing />
-      {/* <Section  classes="infra-recommend-section" pageWidth=""> */}
+      <Section  classes="infra-recommend-section" pageWidth="">
         <FiltersArea />
-      {/* </Section> */}
+        <ListingWrapper />
+      </Section>
     </Wrapper>
   );
 }
