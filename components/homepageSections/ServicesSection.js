@@ -12,6 +12,7 @@ const ServicesSection = (props) => {
       title: "Property Buying",
       description: "We make buying a property just as easy as going out for shopping",
       image: "Property-Buying.png",
+      // bg_color: "#F9F4E9",
       url: "#",
     },
     {
@@ -19,6 +20,7 @@ const ServicesSection = (props) => {
       title: "Home Loans ",
       description: "Backing out because of endless hassle of applying for a home loan?  Well let us handle that, we provide Home loan facilitation through major banks across India.",
       image: "Home-Loans.webp",
+      bg_color: "#ECF3FA",
       url: "#",
     },
     {
@@ -26,6 +28,7 @@ const ServicesSection = (props) => {
       title: "Home Interiors ",
       description: "Hire professional interior decorators and get the feeling of being at Home",
       image: "Home-Interiors.webp",
+      bg_color: "#F9ECEC",
       url: "#",
     },
     {
@@ -33,6 +36,7 @@ const ServicesSection = (props) => {
       title: "Property Management Services",
       description: "We work closely with the owners assisting them in liquidating or generating rental yields from their assets",
       image: "Property-management-services.png",
+      bg_color: "#EEF8F0",
       url: "#",
     },
   ];
@@ -70,7 +74,7 @@ const ServicesSection = (props) => {
         >
           {serviceList.map((element) => (
             <SwiperSlide key={element.id}>
-              <div className="service-grid">
+              <div className="service-grid" Style={element.bg_color && `background-color: ${element.bg_color}`}>
                 <div className="image">
                   <Image
                     src={`/assets/images/${element.image}`}

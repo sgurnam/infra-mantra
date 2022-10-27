@@ -29,7 +29,7 @@ const FiltersArea = (props) => {
     },
   ];
   return (
-    <div className="filter-area">
+    <div className="filter-area" onClick={changeStateHandler}>
       {filterListing.map((filter, index) => (
         <FilterAccordion
           key={`filterrListing--${index}`}
