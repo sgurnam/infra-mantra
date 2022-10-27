@@ -71,7 +71,7 @@ const ProjectDetail = (props) => {
                             <h4>About Project</h4>
                         </div>
                         <div className="text-wrap">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                            <p>{`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`}</p>
                             <ul>
                                 <li>Spread across 47 acres</li>
                                 <li>Premium floor residences conceived with the essence of freshness and designed around harmony</li>
