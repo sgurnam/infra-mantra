@@ -5,7 +5,7 @@ import Image from "next/image";
 const ProjectDetail = (props) => {
     return(
         <Section classes="project-detail">
-            <div class="project-top-info">
+            <div className="project-top-info">
                 <div className="logo-wrap">
                     <Image src="/assets/images/listing-grid-logo-1.jpg" alt="" layout="fixed" objectFit="contain" objectPosition="center" width="100" height="57" />
                 </div>
@@ -18,15 +18,15 @@ const ProjectDetail = (props) => {
 
                     <div className="extra-icons">
                         <a href="#">
-                        <svg width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 7a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM4 14a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm12 7a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-9.41-8.49 6.83 3.98m-.01-10.98L6.59 9.49" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        <svg width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 7a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM4 14a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm12 7a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-9.41-8.49 6.83 3.98m-.01-10.98L6.59 9.49" stroke="#BFBFBF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
                         </a>
                         <a href="#">
-                        <svg width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.304 2.68a5.793 5.793 0 0 0-1.879-1.243 5.838 5.838 0 0 0-6.31 1.243L12 3.784 10.884 2.68A5.82 5.82 0 0 0 6.79 1a5.82 5.82 0 0 0-4.094 1.68A5.705 5.705 0 0 0 1 6.734c0 1.52.61 2.978 1.696 4.053l1.115 1.105L12 20l8.188-8.108 1.116-1.104a5.728 5.728 0 0 0 1.255-1.86 5.682 5.682 0 0 0-1.255-6.248v0Z" stroke="#BFBFBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        <svg width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.304 2.68a5.793 5.793 0 0 0-1.879-1.243 5.838 5.838 0 0 0-6.31 1.243L12 3.784 10.884 2.68A5.82 5.82 0 0 0 6.79 1a5.82 5.82 0 0 0-4.094 1.68A5.705 5.705 0 0 0 1 6.734c0 1.52.61 2.978 1.696 4.053l1.115 1.105L12 20l8.188-8.108 1.116-1.104a5.728 5.728 0 0 0 1.255-1.86 5.682 5.682 0 0 0-1.255-6.248v0Z" stroke="#BFBFBF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
                         </a>
                     </div>
                 </div>
             </div>
-            <div class="project-media-wrap">
+            <div className="project-media-wrap">
                 <div className="prj-left-media-wrap">
                     <div className="img-wrap large">
                         <Image src="/assets/images/prop-img.png" alt="" layout='fill' />
