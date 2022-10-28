@@ -737,10 +737,12 @@ h6 {
 .theme-btn {
   position: relative;
   background-color: #313131;
+  font-size: 16px;
   color: #fff;
   padding: 10px 30px 12px;
   display: inline-block;
   border-radius: 40px;
+  border: 0px;
   font-weight: 500;
   transition: 0.3s;
   cursor: pointer;
@@ -1442,10 +1444,10 @@ h6 {
   right: 14px;
   background-color: #fff;
   z-index: 100;
-  box-shadow: 0 0 20px #00000045;
+  box-shadow: 0px 0px 30px 0px #0000001A;
   width: max(300px, 25%);
   padding: 25px 30px;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .floating-form .form-head h3 {
@@ -1894,7 +1896,7 @@ h6 {
 
 /* Project Details */
 .sidebar {
-  width: 15%;
+  width: 12%;
   position: relative;
 }
 ul.sidemenu {
@@ -1916,7 +1918,7 @@ ul.sidemenu li a.active{
   color: #D09F3E;
 }
 .project-detail {
-  width: 85%;
+  width: 88%;
 }
 .infra-detail-section > .page-width {
   display: flex;
@@ -1985,11 +1987,11 @@ ul.sidemenu li a.active{
   margin-bottom: 16px;
 }
 .prj-left-media-wrap {
-  width: calc(66.66% - 16px);
+  width: calc(68% - 16px);
   margin-right: 16px;
 }
 .prj-right-media-wrap {
-  width: 33.333%;
+  width: 32%;
 }
 .project-attributes-wrap {
   display: flex;
@@ -2029,12 +2031,12 @@ ul.sidemenu li a.active{
   align-items: flex-start;
 }
 .prj-info-left {
-  width: calc(66.66% - 16px);
+  width: calc(68% - 16px);
   margin-right: 16px;
   padding-top: 16px;
 }
 .prj-info-right {
-  width: 35%;
+  width: 32%;
   position: sticky;
   padding-top: 16px;
   top: 0px;
@@ -2053,6 +2055,9 @@ ul.sidemenu li a.active{
 }
 .prj-info-item .title-wrap h4 {
   margin-top: 0px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 24px;
 }
 .prj-info-item#floor-plan .img-wrap{
   position: relative;
@@ -2060,17 +2065,225 @@ ul.sidemenu li a.active{
 }
 .floor-config-wrap {
   width: 75%;
+  text-align: right;
 }
-#floor-plan .title-wrap {
+.title-wrap.have-btns {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
 }
-.floor-config-wrap > a {
+.title-wrap.have-btns h4{
+  margin-bottom: 0px;
+}
+.title-btns-wrap > a {
   color: #434343;
   border-radius: 40px;
   border: 1px solid #cccccc;
   padding: 8px 12px;
   margin-right: 10px;
   font-size: 14px;
+  display: inline-block;
+}
+.floor-config-wrap > a:last-child{
+  margin-right: 0px;
+}
+.floor-specs-item p {
+  margin-top: 0px;
+  margin-bottom: 8px;
+  font-size: 12px;
+  color: #959595;
+}
+.floor-specs-item h5 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #434343;
+}
+.floor-specs {
+  display: flex;
+  margin-top: 30px;
+}
+.floor-specs-item {
+  width: calc(25% - 10px);
+  margin-right: 10px;
+}
+.footer .footer-company-info .social a {
+    position: relative;
+    display: block;
+    height: 36px;
+    width: 36px;
+}
+table.prj-spec-table th, table.prj-spec-table td {
+  border: 1px solid #EEE9E9;
+}
+table.prj-spec-table th, table.prj-spec-table td{
+  padding: 10px 15px;
+}
+table.prj-spec-table th {
+  text-align: left;
+}
+table.prj-spec-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#project-amenities .title-wrap p {
+  color: #959595;
+}
+#project-amenities .title-btns-wrap{
+  margin-bottom: 60px;
+}
+.amenities-item .icon{
+  position: relative;
+}
+.amenities-wrap {
+  display: flex;
+}
+.amenities-item {
+  width: calc((100% - 48px) / 5);
+  margin-right: 12px;
+  text-align: center;
+  background-color: #F9F4E9;
+  padding: 15px 8px;
+  padding-top: 0px;
+  border-radius: 10px;
+}
+.amenities-item h5{
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #434343;
+}
+.amenities-item .icon {
+  position: relative;
+  margin-top: -20px;
+}
+#project-amenities .title-wrap p {
+  color: #959595;
+}
+.proprop .img-wrap {
+  position: relative;
+  height: 240px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.proprop .info h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.proprop .info .prop-loc {
+  font-size: 13px;
+  color: #959595;
+  margin-top: 8px;
+}
+.proprop .info .prop-config {
+  font-size: 13px;
+  margin: 0px;
+}
+.prj-info-item .property-btn svg {
+  margin-left: 10px;
+}
+.prj-info-item .property-btn{
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.about-dev-wrap .dev-logo {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #BFBFBF;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+.about-dev-wrap {
+  display: flex;
+}
+.about-dev-wrap .text-wrap {
+  width: calc(100% - 120px);
+}
+.about-dev-wrap .text-wrap p {
+  margin-top: 0px;
+}
+.loan-rate-item .logo-img {
+  position: relative;
+  height: 50px;
+  margin-right: 10px;
+  width: 21%;
+}
+.ln-int p, .ln-emi p {
+  font-size: 13px;
+  color: #434343;
+  margin-bottom: 8px;
+  margin-top: 0px;
+}
+.ln-int .ln-int-rate, .ln-emi .ln-emi-value {
+  font-size: 14px;
+  font-weight: 500;
+}
+.loan-rate-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #EEE9E9;
+  padding: 12px 18px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+.loan-rate-item .ln-int, .loan-rate-item .ln-emi {
+  margin-right: 10px;
+  width: 22%;
+}
+p.note{
+  color: #898989;
+  font-size: 13px;
+}
+.sticky-cta {
+  box-shadow: 0px 0px 30px 0px #0000001A;
+  background-color: #fff;
+  padding: 25px 30px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border-radius: 10px;
+}
+.sticky-cta-head {
+  display: flex;
+}
+.sticky-cta-head h4 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.sticky-cta-head .title-wrap p{
+  margin-top: 0px;
+  color: #898989;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.sticky-cta-head .icon{
+  margin-right: 16px;
+}
+.detail_enquiry .form-head {
+  display: flex;
+  align-items: flex-start;
+}
+.detail_enquiry .form-head h4 {
+  margin-top: 0px;
+  text-align: left;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 600
+}
+.detail_enquiry .form-head .icon {
+  margin-right: 16px;
+}
+.sticky-cta a.theme-btn {
+  display: block;
+  text-align: center;
 }
 
 @media (max-width: 600px) {
