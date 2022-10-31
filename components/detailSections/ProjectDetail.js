@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const ProjectDetail = (props) => {
     return(
-        <Section classes="project-detail">
+        <Section classes="project-detail" pageWidth="container">
             <div className="project-top-info">
                 <div className="logo-wrap">
                     <Image src="/assets/images/listing-grid-logo-1.jpg" alt="" layout="fixed" objectFit="contain" objectPosition="center" width="100" height="57" />
