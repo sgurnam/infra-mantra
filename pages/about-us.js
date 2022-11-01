@@ -3,6 +3,9 @@ import PageHeader from "../components/UI/PageHeader";
 import AboutInfo from "../components/aboutSections/AboutInfo";
 import Timeline from "../components/aboutSections/Timeline";
 import AboutTeam from "../components/aboutSections/AboutTeam";
+import AboutAwards from "../components/aboutSections/AboutAwards";
+import ReraStates from "../components/aboutSections/ReraStates";
+import OurPartners from "../components/homepageSections/OurPartners";
 
 export default function About(){
     const banner_data = {
@@ -16,6 +19,9 @@ export default function About(){
             <AboutInfo />
             <Timeline />
             <AboutTeam/>
+            <AboutAwards/>
+            <ReraStates/>
+            <OurPartners />
         </Wrapper>
     )
 }

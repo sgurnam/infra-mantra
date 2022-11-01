@@ -2126,7 +2126,10 @@ table.prj-spec-table th {
 }
 table.prj-spec-table {
   width: 100%;
-  border-collapse: collapse;
+  border-radius: 10px;
+  border: 1px solid #EEE9E9;
+  border-spacing: 0px;
+  overflow: hidden;
 }
 #project-amenities .title-wrap p {
   color: #959595;
@@ -2426,16 +2429,16 @@ p.note{
 
 .ab-team-item .img-wrap {
   position: relative;
-  height: 320px;
+  height: 430px;
 }
 .about-team-wrap {
   display: flex;
   flex-wrap: wrap;
 }
 .ab-team-item {
-  width: calc(50% - 16px);
-  margin-right: 16px;
-  margin-bottom: 16px;
+  width: calc(50% - 30px);
+  margin-left: 30px;
+  margin-bottom: 30px;
   position: relative;
   border-radius: 10px;
   overflow: hidden;
@@ -2484,6 +2487,56 @@ p.ab-team-pos {
   font-weight: 500;
   margin: 15px 0px;
 }
+.infra-section.about-awards > .page-width{
+  display: flex;
+}
+section.infra-section.about-awards {
+  background: #000000;
+  padding: 60px 0px;
+}
+.ab-awards-left .img-wrap{
+  position: relative;
+  height: 350px;
+}
+.ab-awards-left {
+  width: 40%;
+}
+.ab-awards-right {
+  width: calc(60% - 40px);
+  margin-left: 40px;
+}
+.subheading{
+  font-size: 20px;
+  font-weight: 500;
+  margin: 15px 0px;
+}
+.ab-awards-right .section-head{
+  margin-bottom: 0px;
+}
+
+
+table.infra-table {
+  width: 100%;
+  border: 1px solid #BFBFBF;
+  border-spacing: 0px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+table.infra-table td, table.infra-table th {
+  border: 1px solid #BFBFBF;
+  padding: 10px 30px;
+}
+table.infra-table.ab-rera-table th{
+  background-color: #313131;
+  color: #fff;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+}
+.infra-section.about-rera-states {
+  padding: 45px 0px;
+}
+
 @media (max-width: 600px) {
   .banner-content {
     max-width: 100%;
