@@ -12,7 +12,7 @@ export default function About(){
         id: 26,
         image: "/assets/images/about-banner.png",
         title: "About Us",
-    }
+    } 
     return(
         <Wrapper>
             <PageHeader data={banner_data} />
